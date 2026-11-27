@@ -54,7 +54,7 @@ class WorldModel(nn.Module):
         self.config = config
         self.model = Backbone(config)
         self.head = LatentActionHead(config.width, config.latent_action_dim, config.action_dim)
-        self.buttons = None
+        self.action_names = None
 
     def logits(self, current, goal):
         stages = self.model.wm.unroll(current, goal)
@@ -77,29 +77,21 @@ class WorldModel(nn.Module):
         action = self.head.encode_action(current, future)
         return F.smooth_l1_loss(self.head.predict_future(current, action).float(), future.float())
 
-    def action_loss(self, current, goal, buttons):
-        """Pass only labeled examples to this objective, using multi-hot button targets."""
-        return F.binary_cross_entropy_with_logits(self.logits(current, goal).float(), buttons.float())
+    def action_loss(self, current, goal, targets):
+        """Pass only labeled examples to this objective, using multi-label binary targets."""
+        return F.binary_cross_entropy_with_logits(self.logits(current, goal).float(), targets.float())
 
     def save(self, path):
-        torch.save(dict(format="vizdoom-world-model-v1", config=asdict(self.config),
-                        buttons=self.buttons, policy=self.state_dict()), path)
+        torch.save(dict(format="visual-goal-world-model-v1", config=asdict(self.config),
+                        action_names=self.action_names, policy=self.state_dict()), path)
 
     @classmethod
     def load(cls, path, device="cpu"):
-        """Load a portable model or a pooled E1M1 RGB policy.pt checkpoint."""
+        """Restore a model saved with WorldModel.save."""
         saved = torch.load(path, map_location="cpu", weights_only=True)
-        cfg = saved["config"]
-        if saved.get("format") == "vizdoom-world-model-v1":
-            config = Config(**cfg)
-        elif (cfg.get("e1m1_mixed_rgb") and cfg.get("wm_predictor","mlp") == "mlp"
-              and cfg.get("recurrent_steps",9) == 9 and not cfg.get("all_stage_action")
-              and not cfg.get("patch_temporal") and not cfg.get("direct_bc")):
-            config = Config(image_size=cfg["size"], width=cfg["width"], wm_hidden=cfg["wm_hidden"],
-                            latent_action_dim=cfg.get("latent_action_dim",16), action_dim=len(saved["buttons"]))
-        else:
-            raise ValueError("Unrecognized architecture or checkpoint format")
-        model = cls(config)
+        if saved.get("format") != "visual-goal-world-model-v1":
+            raise ValueError("For external weights, construct a model with the matching Config and use load_state_dict")
+        model = cls(Config(**saved["config"]))
         model.load_state_dict(saved["policy"], strict=True)
-        model.buttons = saved.get("buttons")
+        model.action_names = saved["action_names"]
         return model.to(device).eval()

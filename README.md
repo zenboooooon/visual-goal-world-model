@@ -1,8 +1,8 @@
-# ViZDoom World Model
+# Visual Goal World Model
 
-4枚の観測画像と4枚の目標画像から次の操作を予測するPyTorchモデルです。E1M1実験の標準設定はRGB 192×192、潜在幅512、WM幅512、再帰9段、潜在行動16次元、操作8ボタンです。パッケージはゲーム本体・録画・実験ディレクトリから独立しています。
+現在と目標の画像履歴を受け取り、9段の潜在状態と次の行動を予測するPyTorchパッケージです。必要な外部ライブラリはPyTorchだけです。映像の取得、前処理、教師にする時刻、操作ラベルの意味は呼び出し側のプロジェクトで決めます。
 
-## インストールと推論
+## インストールと使い方
 
 ```bash
 python -m pip install .
@@ -10,44 +10,48 @@ python -m pip install .
 
 ```python
 import torch
-from vizdoom_world_model import Config, WorldModel
+from visual_goal_world_model import Config, WorldModel
 
-model = WorldModel(Config(temporal_mode="pooled")).eval()
-current = torch.rand(1, 4, 3, 192, 192)
+# 例として単眼グレースケール映像と、同時に選べる5種類の行動を使う
+cfg = Config(temporal_mode="patch", image_size=64, channels=1, action_dim=5)
+model = WorldModel(cfg).eval()
+current = torch.rand(2, 4, 1, 64, 64)
 goal = torch.rand_like(current)
 with torch.inference_mode():
-    logits = model(current, goal)  # [batch, action_dim]
+    logits = model(current, goal)       # [2, 5]
+    probabilities = logits.sigmoid()
 ```
 
-| `temporal_mode` | 時系列Transformerの入力と出力 |
+| `temporal_mode` | 時系列Transformerに入れるもの |
 |---|---|
-| `"pooled"` | 各時刻の空間ViTのCLSを1個ずつ入力し、現在時刻の出力を使います。 |
-| `"patch"` | 現在時刻の各パッチをクエリ、4時刻の全パッチをキー・値として注意を計算し、現在時刻の最終パッチを平均します。 |
+| `"pooled"`（既定） | 各時刻の空間ViTのCLSトークン。直近の時刻の出力を使います。 |
+| `"patch"` | 現在画像の各パッチが4枚すべての画像のパッチにattentionし、現在画像の出力パッチを平均します。 |
 
-両方式とも空間ViTは8×8のパッチを使います。パッチ時系列版は `WorldModel(Config(temporal_mode="patch"))` で初期化します。設定は保存ファイルにも記録されます。他の環境に渡すときは `action_dim` と入力サイズ・チャネル数を指定できます。画像の一辺はパッチサイズの倍数を使います。
+両方式で入力形式は同じです。現在・目標ともに古い順の4枚を `[B, 4, C, H, W]`、値域0〜1の浮動小数点テンソルで渡します。辺の長さは `image_size` で、`patch_size` の倍数を使います。短い履歴は左側を埋めて、`current_valid` と `goal_valid` に形状 `[B, 4]` のboolマスクを渡します。末尾は有効な観測にします。組み込みの操作損失は複数の行動が同時に成立する二値ラベルを扱います。
 
-入力は古い順の4枚で、値域は0〜1です。E1M1では35 Hzの映像から4 tic間隔で取り、4:3のRGB画像を192×144に縮小して上下に24画素ずつ黒帯を付けます。短い履歴は左を埋め、`current_valid` と `goal_valid` にそれぞれ形状 `[B,4]` のboolマスクを渡します。末尾のフレームは常に有効です。出力は独立なボタンごとのlogitです。
+## ラベル付き映像とラベルなし映像の共同学習
 
-## 自分のデータでの共同学習
+1. 現在と目標の履歴を `model.model.encoder` で符号化し、各予測段に対応する将来の履歴を `model.model.target_encoder` で符号化します。教師の順序は遠い時刻から近い時刻で、9段の形状は `[B, 9, width]` です。教師フレームの選択はデータローダーが行います。
+2. すべての映像から `model.world_loss(current_z, goal_z, stage_targets)` と `model.transition_loss(current_z, future_z)` を計算します。
+3. 操作教師がある行だけを選び、`model.action_loss(labeled_current_z, labeled_goal_z, targets)` を加えます。`targets` は `[B_labeled, action_dim]` の0/1です。ラベルのないバッチでは映像の損失だけを使えます。
+4. optimizer更新後に `model.model.update_target()` を呼びます。EMAの既定係数は0.996です。
 
-1. 現在と目標の画像履歴を `model.model.encoder` で潜在に変換します。WM教師の各時刻は `model.model.target_encoder` で変換します。
-2. ラベルの有無にかかわらず、`model.world_loss(current_z, goal_z, stage_targets)` と `model.transition_loss(current_z, future_z)` を計算します。E1M1では目標を1〜10秒先から選び、段の教師は元の時間差の89、78、67、56、45、34、23、12%に最も近いtic（下限8、上限は目標の1 tic前）、最終段は8 tic先です。遷移の教師も8 tic先です。
-3. 操作ログのあるサンプルだけを選んで `model.action_loss(labeled_current_z, labeled_goal_z, buttons)` を加えます。ボタン教師は形状 `[B,action_dim]` の0/1です。E1M1では成功軌跡の参照ウェイポイントを操作の目標画像に使います。教師がないバッチではこの損失をスキップできます。
-4. 合計損失を逆伝播し、optimizer更新後に `model.model.update_target()` を呼びます。既定のEMA係数は0.996です。
-
-E1M1ではオンラインエンコーダーに学習率3e-5、WMと行動ヘッドに5e-4のAdamWを使っています。推論時はWMが予測した最終段と現在潜在を行動エンコーダーに渡し、行動デコーダーでボタンを予測します。
-
-## 保存と復元
+## 保存・復元と既存重みの移行
 
 ```python
+model.action_names = ["a", "b", "c", "d", "e"]  # 任意のラベル順
 model.save("model.pt")
 restored = WorldModel.load("model.pt")
-# E1M1 RGB・非パッチ型の既存policy.ptも同じAPIで読み込めます。
-# ボタン順は restored.buttons で確認できます。
 ```
 
-新規モデルのボタン順はデータ提供側で決め、必要に応じて保存前に `model.buttons` に設定します。既存E1M1重みの読み込みではチェックポイントのボタン順を引き継ぎます。
+他プロジェクトの同一構成の重みは、元のチャネル数、画像サイズ、時系列方式、各層の幅、出力数を指定して読み込みます。外部ファイルの辞書構造は呼び出し側で処理します。
 
-```bash
-python -m unittest discover -s tests
+```python
+saved = torch.load("policy.pt", map_location="cpu", weights_only=True)
+model = WorldModel(Config(temporal_mode="pooled", image_size=192, channels=3,
+                          width=512, wm_hidden=512, latent_action_dim=16, action_dim=8))
+model.load_state_dict(saved["policy"], strict=True)
+model.eval()
 ```
+
+テストは `python -m unittest discover -s tests` で実行できます。

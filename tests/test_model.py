@@ -4,7 +4,7 @@ from pathlib import Path
 
 import torch
 
-from vizdoom_world_model import Config, WorldModel
+from visual_goal_world_model import Config, WorldModel
 
 
 class TestModes(unittest.TestCase):
@@ -12,8 +12,8 @@ class TestModes(unittest.TestCase):
         torch.set_num_threads(1)
         for mode in ("pooled", "patch"):
             with self.subTest(mode=mode):
-                model = WorldModel(Config(temporal_mode=mode, width=16, wm_hidden=24, image_size=16, action_dim=5))
-                x = torch.rand(2,4,3,16,16)
+                model = WorldModel(Config(temporal_mode=mode, width=16, wm_hidden=24, image_size=16, channels=1, action_dim=5))
+                x = torch.rand(2,4,1,16,16)
                 valid = torch.tensor([[False,False,True,True],[True,True,True,True]])
                 y = model(x,x,valid,valid)
                 self.assertEqual(y.shape,(2,5))
@@ -31,8 +31,10 @@ class TestModes(unittest.TestCase):
                 self.assertFalse(target.requires_grad)
                 with tempfile.TemporaryDirectory() as tmp:
                     path = Path(tmp)/"model.pt"
+                    model.action_names = ["a", "b", "c", "d", "e"]
                     model.save(path)
                     restored = WorldModel.load(path)
+                    self.assertEqual(restored.action_names, model.action_names)
                     torch.testing.assert_close(restored(x,x,valid,valid),y)
 
 
