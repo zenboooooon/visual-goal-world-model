@@ -1,0 +1,1698 @@
+{
+  "train_000": {
+    "seed": 191015
+  },
+  "train_001": {
+    "seed": 191035
+  },
+  "train_002": {
+    "seed": 191051
+  },
+  "train_003": {
+    "seed": 191052
+  },
+  "train_004": {
+    "seed": 191068
+  },
+  "train_005": {
+    "seed": 191080
+  },
+  "train_006": {
+    "seed": 191101
+  },
+  "train_007": {
+    "seed": 191128
+  },
+  "train_008": {
+    "seed": 191137
+  },
+  "train_009": {
+    "seed": 191153
+  },
+  "train_010": {
+    "seed": 191168
+  },
+  "train_011": {
+    "seed": 191171
+  },
+  "train_012": {
+    "seed": 191180
+  },
+  "train_013": {
+    "seed": 191193
+  },
+  "train_014": {
+    "seed": 191200
+  },
+  "train_015": {
+    "seed": 191202
+  },
+  "train_016": {
+    "seed": 191205
+  },
+  "train_017": {
+    "seed": 191232
+  },
+  "train_018": {
+    "seed": 191240
+  },
+  "train_019": {
+    "seed": 191253
+  },
+  "train_020": {
+    "seed": 191265
+  },
+  "train_021": {
+    "seed": 191267
+  },
+  "train_022": {
+    "seed": 191271
+  },
+  "train_023": {
+    "seed": 191279
+  },
+  "train_024": {
+    "seed": 191282
+  },
+  "train_025": {
+    "seed": 191287
+  },
+  "train_026": {
+    "seed": 191293
+  },
+  "train_027": {
+    "seed": 191310
+  },
+  "train_028": {
+    "seed": 191324
+  },
+  "train_029": {
+    "seed": 191333
+  },
+  "train_030": {
+    "seed": 191347
+  },
+  "train_031": {
+    "seed": 191371
+  },
+  "train_032": {
+    "seed": 191389
+  },
+  "train_033": {
+    "seed": 191401
+  },
+  "train_034": {
+    "seed": 191402
+  },
+  "train_035": {
+    "seed": 191425
+  },
+  "train_036": {
+    "seed": 191429
+  },
+  "train_037": {
+    "seed": 191432
+  },
+  "train_038": {
+    "seed": 191440
+  },
+  "train_039": {
+    "seed": 191442
+  },
+  "train_040": {
+    "seed": 191459
+  },
+  "train_041": {
+    "seed": 191462
+  },
+  "train_042": {
+    "seed": 191469
+  },
+  "train_043": {
+    "seed": 191474
+  },
+  "train_044": {
+    "seed": 191515
+  },
+  "train_045": {
+    "seed": 191533
+  },
+  "train_046": {
+    "seed": 191536
+  },
+  "train_047": {
+    "seed": 191551
+  },
+  "train_048": {
+    "seed": 191579
+  },
+  "train_049": {
+    "seed": 191594
+  },
+  "death_191000": {
+    "seed": 191000
+  },
+  "death_191001": {
+    "seed": 191001
+  },
+  "death_191002": {
+    "seed": 191002
+  },
+  "death_191003": {
+    "seed": 191003
+  },
+  "death_191004": {
+    "seed": 191004
+  },
+  "death_191005": {
+    "seed": 191005
+  },
+  "death_191006": {
+    "seed": 191006
+  },
+  "death_191007": {
+    "seed": 191007
+  },
+  "death_191008": {
+    "seed": 191008
+  },
+  "death_191009": {
+    "seed": 191009
+  },
+  "death_191010": {
+    "seed": 191010
+  },
+  "death_191011": {
+    "seed": 191011
+  },
+  "death_191012": {
+    "seed": 191012
+  },
+  "death_191013": {
+    "seed": 191013
+  },
+  "death_191014": {
+    "seed": 191014
+  },
+  "death_191016": {
+    "seed": 191016
+  },
+  "death_191017": {
+    "seed": 191017
+  },
+  "death_191018": {
+    "seed": 191018
+  },
+  "death_191019": {
+    "seed": 191019
+  },
+  "death_191020": {
+    "seed": 191020
+  },
+  "death_191021": {
+    "seed": 191021
+  },
+  "death_191022": {
+    "seed": 191022
+  },
+  "death_191023": {
+    "seed": 191023
+  },
+  "death_191024": {
+    "seed": 191024
+  },
+  "death_191025": {
+    "seed": 191025
+  },
+  "death_191026": {
+    "seed": 191026
+  },
+  "death_191027": {
+    "seed": 191027
+  },
+  "death_191028": {
+    "seed": 191028
+  },
+  "death_191029": {
+    "seed": 191029
+  },
+  "death_191030": {
+    "seed": 191030
+  },
+  "death_191031": {
+    "seed": 191031
+  },
+  "death_191032": {
+    "seed": 191032
+  },
+  "death_191033": {
+    "seed": 191033
+  },
+  "death_191034": {
+    "seed": 191034
+  },
+  "death_191036": {
+    "seed": 191036
+  },
+  "death_191037": {
+    "seed": 191037
+  },
+  "death_191038": {
+    "seed": 191038
+  },
+  "death_191039": {
+    "seed": 191039
+  },
+  "death_191040": {
+    "seed": 191040
+  },
+  "death_191041": {
+    "seed": 191041
+  },
+  "death_191042": {
+    "seed": 191042
+  },
+  "death_191043": {
+    "seed": 191043
+  },
+  "death_191044": {
+    "seed": 191044
+  },
+  "death_191045": {
+    "seed": 191045
+  },
+  "death_191046": {
+    "seed": 191046
+  },
+  "death_191047": {
+    "seed": 191047
+  },
+  "death_191048": {
+    "seed": 191048
+  },
+  "death_191049": {
+    "seed": 191049
+  },
+  "death_191050": {
+    "seed": 191050
+  },
+  "death_191053": {
+    "seed": 191053
+  },
+  "death_191054": {
+    "seed": 191054
+  },
+  "death_191055": {
+    "seed": 191055
+  },
+  "death_191056": {
+    "seed": 191056
+  },
+  "death_191057": {
+    "seed": 191057
+  },
+  "death_191058": {
+    "seed": 191058
+  },
+  "death_191059": {
+    "seed": 191059
+  },
+  "death_191060": {
+    "seed": 191060
+  },
+  "death_191061": {
+    "seed": 191061
+  },
+  "death_191062": {
+    "seed": 191062
+  },
+  "death_191063": {
+    "seed": 191063
+  },
+  "death_191064": {
+    "seed": 191064
+  },
+  "death_191065": {
+    "seed": 191065
+  },
+  "death_191066": {
+    "seed": 191066
+  },
+  "death_191067": {
+    "seed": 191067
+  },
+  "death_191069": {
+    "seed": 191069
+  },
+  "death_191070": {
+    "seed": 191070
+  },
+  "death_191071": {
+    "seed": 191071
+  },
+  "death_191072": {
+    "seed": 191072
+  },
+  "death_191073": {
+    "seed": 191073
+  },
+  "death_191074": {
+    "seed": 191074
+  },
+  "death_191075": {
+    "seed": 191075
+  },
+  "death_191076": {
+    "seed": 191076
+  },
+  "death_191077": {
+    "seed": 191077
+  },
+  "death_191078": {
+    "seed": 191078
+  },
+  "death_191079": {
+    "seed": 191079
+  },
+  "death_191081": {
+    "seed": 191081
+  },
+  "death_191082": {
+    "seed": 191082
+  },
+  "death_191083": {
+    "seed": 191083
+  },
+  "death_191084": {
+    "seed": 191084
+  },
+  "death_191085": {
+    "seed": 191085
+  },
+  "death_191086": {
+    "seed": 191086
+  },
+  "death_191087": {
+    "seed": 191087
+  },
+  "death_191088": {
+    "seed": 191088
+  },
+  "death_191089": {
+    "seed": 191089
+  },
+  "death_191090": {
+    "seed": 191090
+  },
+  "death_191091": {
+    "seed": 191091
+  },
+  "death_191092": {
+    "seed": 191092
+  },
+  "death_191093": {
+    "seed": 191093
+  },
+  "death_191094": {
+    "seed": 191094
+  },
+  "death_191095": {
+    "seed": 191095
+  },
+  "death_191096": {
+    "seed": 191096
+  },
+  "death_191097": {
+    "seed": 191097
+  },
+  "death_191098": {
+    "seed": 191098
+  },
+  "death_191099": {
+    "seed": 191099
+  },
+  "death_191100": {
+    "seed": 191100
+  },
+  "death_191102": {
+    "seed": 191102
+  },
+  "death_191103": {
+    "seed": 191103
+  },
+  "death_191104": {
+    "seed": 191104
+  },
+  "death_191105": {
+    "seed": 191105
+  },
+  "death_191106": {
+    "seed": 191106
+  },
+  "dsda-95301": {
+    "id": 95301,
+    "player": "kuckkuck",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M1-024.lmp",
+    "source_lmp_sha256": "77595f51f2adae9b4e8dff9dbf7660b88e05cc370349088c370b9a9d58b802eb",
+    "dsda_time": "0:24.83",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/83602/E1M1-024.zip"
+  },
+  "dsda-93469": {
+    "id": 93469,
+    "player": "kuckkuck",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-025/e1m1-025.lmp",
+    "source_lmp_sha256": "cd8bf73a109f6e18758f97b1e641c7c9e4f1b58be4fca22c12eff0f76fd1173e",
+    "dsda_time": "0:25.86",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/81770/e1m1-025.zip"
+  },
+  "dsda-56754": {
+    "id": 56754,
+    "player": "depr4vity",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-026.lmp",
+    "source_lmp_sha256": "97147180abbe4601055d5693c4dcd9f50f5d3d5fa84472de399058967eb4c493",
+    "dsda_time": "0:26.17",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/47182/e1m1-026.zip"
+  },
+  "dsda-56512": {
+    "id": 56512,
+    "player": "depr4vity",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-027.lmp",
+    "source_lmp_sha256": "1def792866bf48878aa61eb06a14be65d92754d6fb6aea25174284bd4474ab32",
+    "dsda_time": "0:27.31",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/46940/e1m1-027-depr4vity.zip"
+  },
+  "dsda-56459": {
+    "id": 56459,
+    "player": "Intuition?!",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "Intu - 27s.lmp",
+    "source_lmp_sha256": "13a12be30b82402608fc1e8038cbc0224041a0a8a5de835f1f731a908133b80b",
+    "dsda_time": "0:27.66",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/46887/e1m1-027-intuition.zip"
+  },
+  "dsda-56453": {
+    "id": 56453,
+    "player": "Vile",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-027.lmp",
+    "source_lmp_sha256": "e750031876e2fed0d77f01993670e09495340bcfc6b8b16c34aafaf131b37658",
+    "dsda_time": "0:27.94",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/46881/e1m1-027.zip"
+  },
+  "dsda-29503": {
+    "id": 29503,
+    "player": "4shockblast",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-028.lmp",
+    "source_lmp_sha256": "e4dc4cdef53a9e3088381a8c9c6f20722f6776c0a54cbc21bca5c2a5ee1f13e0",
+    "dsda_time": "0:28.46",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28790/e1m1-028.zip"
+  },
+  "dsda-56451": {
+    "id": 56451,
+    "player": "depr4vity",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-028.lmp",
+    "source_lmp_sha256": "c375a59455b2bc8b15a7e4782f9acd100020baa71bf1bca6258dfb2e6c0a6c83",
+    "dsda_time": "0:28.57",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/46879/e1m1-028_depr4vity.zip"
+  },
+  "dsda-56454": {
+    "id": 56454,
+    "player": "Vile",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-028.lmp",
+    "source_lmp_sha256": "8cd63cc2623767163001234e8b75b2071a04def5f7873754cc0ccce1e2d27357",
+    "dsda_time": "0:28.69",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/46882/e1m1-028_vile.zip"
+  },
+  "dsda-63122": {
+    "id": 63122,
+    "player": "Giga",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M12940.lmp",
+    "source_lmp_sha256": "f6d3081ae9514168b5a30b869fe34e31d76e9abf256bf74de8051d3fe8ce281e",
+    "dsda_time": "0:29.40",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/52620/E1M1UVMAX2940.zip"
+  },
+  "dsda-29504": {
+    "id": 29504,
+    "player": "Jonathan Rimmer",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-029.lmp",
+    "source_lmp_sha256": "9dc2471f0890eba44ac29dded1af3b4ddfed60b347264be3a784bcfdb1688a99",
+    "dsda_time": "0:29.83",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28791/e1m1-029.zip"
+  },
+  "dsda-56715": {
+    "id": 56715,
+    "player": "Coincident",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1uvm030_Coincident_1747.lmp",
+    "source_lmp_sha256": "b088dda0750922ee4c50932fb06ddc8c27368d7f6b037b2964440c16091278f7",
+    "dsda_time": "0:30.14",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/47143/e1m1uvm030_Coincident_1747.zip"
+  },
+  "dsda-70957": {
+    "id": 70957,
+    "player": "NightBird17",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-30/e1m1max30.lmp",
+    "source_lmp_sha256": "1b591a6d8cad147952f0cff258db0b88a26cf5cf730905ba1b7eb8b2733ef0ef",
+    "dsda_time": "0:30.66",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/60374/e1m1-30.zip"
+  },
+  "dsda-29505": {
+    "id": 29505,
+    "player": "Jonathan Rimmer",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-030.lmp",
+    "source_lmp_sha256": "3cc7c29d4948147c22170dbe388984e3c2ccc93d3ca986066c0136ca4d1e1be9",
+    "dsda_time": "0:30.89",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28792/e1m1-030.zip"
+  },
+  "dsda-29506": {
+    "id": 29506,
+    "player": "Jonathan Rimmer",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-031.lmp",
+    "source_lmp_sha256": "40c09e5ef26b56c3d62f531245c49c9d2bae705252ef7225cfb8eeb0a9aee7f5",
+    "dsda_time": "0:31.40",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28793/e1m1-031.zip"
+  },
+  "dsda-56158": {
+    "id": 56158,
+    "player": "cabalcrow",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-32.lmp",
+    "source_lmp_sha256": "88ad12376b2ed883b3bb3991c499c8e521ae0a53b33a3aa9109639be26087bf6",
+    "dsda_time": "0:32.11",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/46770/e1m1-032.zip"
+  },
+  "dsda-61704": {
+    "id": 61704,
+    "player": "JabronySlayer",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1UVM-32/e1m1UVM-32.lmp",
+    "source_lmp_sha256": "2991013cae30224832da1b3684f40cdb6e166caaa1d80e57b55b0c401760185a",
+    "dsda_time": "0:32.40",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/51296/e1m1UVM-32.zip"
+  },
+  "dsda-29507": {
+    "id": 29507,
+    "player": "Yonatan Donner",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M1-032.LMP",
+    "source_lmp_sha256": "ca82fd260d4b304b0d337bd802a1dd462884e790a6dddcf76d41375c3200a6bc",
+    "dsda_time": "0:32.49",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28794/e1m1-032.zip"
+  },
+  "dsda-58611": {
+    "id": 58611,
+    "player": "Pseudonaut",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-3277.lmp",
+    "source_lmp_sha256": "67c1e44a41468ddb118c22675c977603eb2b7e27a4427ca68047bf37144f5225",
+    "dsda_time": "0:32.77",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/48836/e1m1-3277.zip"
+  },
+  "dsda-117636": {
+    "id": 117636,
+    "player": "Billy",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "Arun-00281.lmp",
+    "source_lmp_sha256": "727128fb733d64f03d8e362b5fdddeff02e3d76398838866ac6b078ccfa9c915",
+    "dsda_time": "0:33.63",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/105272/3363.zip"
+  },
+  "dsda-56756": {
+    "id": 56756,
+    "player": "riba2233",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1uv-33(realist).lmp",
+    "source_lmp_sha256": "0858e1ded7c7219ba4e0b514ed406680b08411dbdee1c62dc18f8c31ab574a3b",
+    "dsda_time": "0:33.77",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/47184/e1m1uv-33_realist_.zip"
+  },
+  "dsda-56452": {
+    "id": 56452,
+    "player": "GarrettChan",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1m033.lmp",
+    "source_lmp_sha256": "7977c3912b7bfce08acf71c446b191f944fdc8f8ef0f65bfd49038e70c899f69",
+    "dsda_time": "0:33.86",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/46880/e1m1m033.zip"
+  },
+  "dsda-77092": {
+    "id": 77092,
+    "player": "zumie",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-34.lmp",
+    "source_lmp_sha256": "857835ca3408f62c17c73902a57fdf173d4f42b6937034384355538a8fea867f",
+    "dsda_time": "0:34.14",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/66002/E1M1-34.zip"
+  },
+  "dsda-97737": {
+    "id": 97737,
+    "player": "D0M0",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-034.lmp",
+    "source_lmp_sha256": "297e52c949f16d924fc6e8bcfb6c9f7bbbf09cca9f1b00ce533413795761c0e7",
+    "dsda_time": "0:34.23",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/85966/e1m1-034.zip"
+  },
+  "dsda-63139": {
+    "id": 63139,
+    "player": "Silverhand",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-03469.lmp",
+    "source_lmp_sha256": "12f3794c212e7188c0ede3acec74f02df48e0892af1b3277365bc71e445aaf2c",
+    "dsda_time": "0:34.69",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/52637/e1m1-03469.zip"
+  },
+  "dsda-29509": {
+    "id": 29509,
+    "player": "Neuro",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-034.LMP",
+    "source_lmp_sha256": "54015ed6d928d8d33b6ea8f8042046f37566bd3b8386d87dc68c110ca21af585",
+    "dsda_time": "0:34.77",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28796/e1m1-034.zip"
+  },
+  "dsda-56755": {
+    "id": 56755,
+    "player": "Alan \"Alaux\" Ruzich",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-034.lmp",
+    "source_lmp_sha256": "19ba44d76dc8be9f82d4339a06a6866af1ffa0bc0edcf612f137d0ace2aa2d31",
+    "dsda_time": "0:34.86",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/47183/e1m1-034-Alaux.zip"
+  },
+  "dsda-76881": {
+    "id": 76881,
+    "player": "zumie",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M1-35.lmp",
+    "source_lmp_sha256": "47be3813c5552b532624da7b0a71491ae28a43a6fb3783df9cedbee26ea6b352",
+    "dsda_time": "0:35.23",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/65791/e1m1-35.zip"
+  },
+  "dsda-29511": {
+    "id": 29511,
+    "player": "Arno Slagboom",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "m1o1a035.lmp",
+    "source_lmp_sha256": "42c04ebb7f9ca1531db9ed8468afd3ef48001a150cbe90ccfabcc52e8fffa09e",
+    "dsda_time": "0:35.69",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28798/e1m1-3569.zip"
+  },
+  "dsda-56510": {
+    "id": 56510,
+    "player": "Scorpius",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "doom-e1m1-035.lmp",
+    "source_lmp_sha256": "de7a4e7511cd323b5f8db0ae64ca0e32dc213bee0ae96a2a2072be7fac8ee76f",
+    "dsda_time": "0:35.83",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/46938/doom-e1m1-035.zip"
+  },
+  "dsda-29512": {
+    "id": 29512,
+    "player": "Adam Williamson",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M1-036.LMP",
+    "source_lmp_sha256": "f6a20365ad74eb3e62d43ac7f583872484aecbd762a80554e0125ef3bb01ee98",
+    "dsda_time": "0:36.23",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28799/e1m1-3623.zip"
+  },
+  "dsda-80010": {
+    "id": 80010,
+    "player": "brikk_",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "lv01-xxx-00170.lmp",
+    "source_lmp_sha256": "882480b3a7bf58c0197b0be9c7d1a51a8b72c6d21f60e65497a431aa86df009f",
+    "dsda_time": "0:36.29",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/68853/e1m1_m036.zip"
+  },
+  "dsda-29513": {
+    "id": 29513,
+    "player": "Arno Slagboom",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "M1M1A036.LMP",
+    "source_lmp_sha256": "10408aa42aaae4f392c51a902460f3b3c6e7efd1271373e1f81fdc2219e42086",
+    "dsda_time": "0:36.83",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28800/e1m1-3683.zip"
+  },
+  "dsda-29516": {
+    "id": 29516,
+    "player": "Arno Slagboom",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "M1M1A037.LMP",
+    "source_lmp_sha256": "6a2713490c7868c1099be072f9c5bf07ba5b795099bb200dd96033f738c69291",
+    "dsda_time": "0:37.31",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28803/e1m1-3731.zip"
+  },
+  "dsda-114440": {
+    "id": 114440,
+    "player": "LANCASTER",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M1m-3766.lmp",
+    "source_lmp_sha256": "de487ec92858aee565374d0c1e762439c79f3870d3d62e921cef0254e6c63211",
+    "dsda_time": "0:37.66",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/102136/E1M1m-3766.zip"
+  },
+  "dsda-29515": {
+    "id": 29515,
+    "player": "Michael Kren",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M1-037.LMP",
+    "source_lmp_sha256": "26487b4645ed2b80ef675977b8070c3b78ae6c78761057babd8bfc3e1ea03edb",
+    "dsda_time": "0:37.74",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28802/e1m1-037.zip"
+  },
+  "dsda-29519": {
+    "id": 29519,
+    "player": "Arno Slagboom",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "m1m1a038.lmp",
+    "source_lmp_sha256": "253fe80bd4d265fe89fecddb6a8c6b45d6a97e3db34dffcfa4d065d8fdb6b95b",
+    "dsda_time": "0:38.77",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28806/e1m1-3877.zip"
+  },
+  "dsda-111185": {
+    "id": 111185,
+    "player": "Kinetic",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1m03883.lmp",
+    "source_lmp_sha256": "0e1b90cd05bc402d24d2e99b1efe96197357df185b0cc689eea3ae1478ea5080",
+    "dsda_time": "0:38.83",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/98954/e1m1m03883.zip"
+  },
+  "dsda-58679": {
+    "id": 58679,
+    "player": "CmatiC",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "4thrun.lmp",
+    "source_lmp_sha256": "014f0c2df79ff8fae45df974958bd680d49aac4891ac744745b003cf9295378c",
+    "dsda_time": "0:38.86",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/48880/4thrun.zip"
+  },
+  "dsda-85408": {
+    "id": 85408,
+    "player": "Saku Korpinen",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-uv-max-39-00.lmp",
+    "source_lmp_sha256": "65679513d3dd1522b132cae5b6d4c00e45fe2aea81565afc15f039acf7a943c9",
+    "dsda_time": "0:39.00",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/74051/e1m1-uv-max-39-00.zip"
+  },
+  "dsda-29520": {
+    "id": 29520,
+    "player": "Thomas Zajic",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M1-039.LMP",
+    "source_lmp_sha256": "946c685e195595109a895331bf92b938fa7656a74dfebfdcbd89a199400eb432",
+    "dsda_time": "0:39.20",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28807/e1m1-039.zip"
+  },
+  "dsda-71044": {
+    "id": 71044,
+    "player": "RudieCantFail",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M1_UVMax_39.lmp",
+    "source_lmp_sha256": "93f0d8d941e516f68ab8b49c0d3c94e6b8e349ff42f846d1134fad63fc43340d",
+    "dsda_time": "0:39.66",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/60461/E1M1_UVMax_39.zip"
+  },
+  "dsda-29521": {
+    "id": 29521,
+    "player": "Espi",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "m1m1-039.lmp",
+    "source_lmp_sha256": "31c7b2b076186f2b40142e82941ebaadb8c8d5c3f91e8b4e6cdb0005a165bcb1",
+    "dsda_time": "0:39.80",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28808/e1m1-3980.zip"
+  },
+  "dsda-29522": {
+    "id": 29522,
+    "player": "William Huber",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-max-040-wh.lmp",
+    "source_lmp_sha256": "601cde2e36ad9c6da8e4275e48c72a6e0b8ad0a4561bc0339d55463baf6af2d8",
+    "dsda_time": "0:40.06",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28809/e1m1-4006.zip"
+  },
+  "dsda-54157": {
+    "id": 54157,
+    "player": "Olio",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1uvm40.lmp",
+    "source_lmp_sha256": "37f9895122a2a18dabb8fdeffa1fcaa1fef1372dda0dcfd8fd7fc82e5283c8cc",
+    "dsda_time": "0:40.17",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/45070/e1m1-4017.zip"
+  },
+  "dsda-112472": {
+    "id": 112472,
+    "player": "Demmon B.M.",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M1-040.LMP",
+    "source_lmp_sha256": "9d45fd3b155cbbee8bf00d5c8a9f96203df41e4a437c5c792f58da74fa647db5",
+    "dsda_time": "0:40.91",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/100177/E1M1-040.zip"
+  },
+  "dsda-29525": {
+    "id": 29525,
+    "player": "Marko van der Want",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "m1m1m041.lmp",
+    "source_lmp_sha256": "9d1143c9950af628de94bb6c0bdc63d012e7a90c6640c2ae3f563c708e1fc062",
+    "dsda_time": "0:41.43",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28812/e1m1-4143.zip"
+  },
+  "dsda-58412": {
+    "id": 58412,
+    "player": "Mephres",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1uvm4174.lmp",
+    "source_lmp_sha256": "fd8f68ce6462575d45690dec7faf5aa039658cf3104e5fa7fed7cdcef347a1e0",
+    "dsda_time": "0:41.74",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/48656/e1m1uvm4174.zip"
+  },
+  "dsda-29524": {
+    "id": 29524,
+    "player": "Arsene1412",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "00udUVMAXe1m1 41.lmp",
+    "source_lmp_sha256": "7b80aada558653a6c11ca84c0c467c3191305121e6eccfd49f84e90b26b275c6",
+    "dsda_time": "0:41.94",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28811/e1m1-4194.zip"
+  },
+  "dsda-29526": {
+    "id": 29526,
+    "player": "Vincent Catalaa",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "m1a1v042.lmp",
+    "source_lmp_sha256": "9c1ff27ac0d207a0999799971f0ef1ccd3e5c755926c314fcd56ed2cd4370721",
+    "dsda_time": "0:42.34",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28813/e1m1-042.zip"
+  },
+  "dsda-85407": {
+    "id": 85407,
+    "player": "Saku Korpinen",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-uv-max-0-42-69.lmp",
+    "source_lmp_sha256": "a994d2b855dafedd3d068e2fb3727d9e4d7314b8601fd38d056ebd713cb9aeb6",
+    "dsda_time": "0:42.69",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/74050/e1m1-uv-max-0-42-69.zip"
+  },
+  "dsda-29527": {
+    "id": 29527,
+    "player": "Mark Schuler",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "doome1m1uvmax01.lmp",
+    "source_lmp_sha256": "20ff00ff30744abbf87540779a6e9908934aabf6ba901dd01fcc090c1fb393de",
+    "dsda_time": "0:43.63",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28814/e1m1-4363.zip"
+  },
+  "dsda-29529": {
+    "id": 29529,
+    "player": "Marko van der Want",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "M1M1M043.LMP",
+    "source_lmp_sha256": "4e66fa8ee04d34fe668646a658950c144d9f5379ac3fd1fcab78060e7f1b607e",
+    "dsda_time": "0:43.80",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28816/e1m1-4380.zip"
+  },
+  "dsda-85213": {
+    "id": 85213,
+    "player": "Saku Korpinen",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-uv-max-0-44-46.lmp",
+    "source_lmp_sha256": "0ee845d1ccbe84243bdbc3afe379707217fa945234d6559889c327bde705dc61",
+    "dsda_time": "0:44.46",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/73879/e1m1-uv-max-0-44-46.zip"
+  },
+  "dsda-63858": {
+    "id": 63858,
+    "player": "Endless",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-uvmax-044.lmp",
+    "source_lmp_sha256": "75cfde176dca2ca35a05472fb750a6b284fcc34884382700b6b3cdc6e9fa1b94",
+    "dsda_time": "0:44.74",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/53356/e1m1-uvmax044.zip"
+  },
+  "dsda-56505": {
+    "id": 56505,
+    "player": "Ling",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-max-045.lmp",
+    "source_lmp_sha256": "ea7acc77fcca28e6f8e0bba376401024dfbf8d754e9f83829e6ec6f344d387ce",
+    "dsda_time": "0:45.43",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/46933/e1m1-max-045.zip"
+  },
+  "dsda-76092": {
+    "id": 76092,
+    "player": "wuslamclan",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "0e1m1-045.lmp",
+    "source_lmp_sha256": "2c8a93d27f23350b8ca85ee1193efbfcb042dbdac58e3372694554c9cc814f26",
+    "dsda_time": "0:45.43",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/65007/e1m1-045.zip"
+  },
+  "dsda-29530": {
+    "id": 29530,
+    "player": "Marko van der Want",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "m1m1m045.lmp",
+    "source_lmp_sha256": "e7b40f4d1a0798c1423986e2d620b96bd722f5d434eaa363d61199e57aa74b45",
+    "dsda_time": "0:45.94",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28817/e1m1-045.zip"
+  },
+  "dsda-124114": {
+    "id": 124114,
+    "player": "Jim7117",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "AAAAAdemo e1m1 try 2.lmp",
+    "source_lmp_sha256": "896ff529fe93a67a6b49ccfec168ae4068d79930c085614c9ea1f8a6b8c0fe7c",
+    "dsda_time": "0:47.06",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/111682/E1M1.zip"
+  },
+  "dsda-29533": {
+    "id": 29533,
+    "player": "Opulent",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "M1M1D047.LMP",
+    "source_lmp_sha256": "6ad6593b31fa846f7cefbf50bafbcfada9074db895e29685c6d1968170e01b83",
+    "dsda_time": "0:47.91",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28820/e1m1-047.zip"
+  },
+  "dsda-29534": {
+    "id": 29534,
+    "player": "Eelco de Vries",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1m1-049.lmp",
+    "source_lmp_sha256": "090a52c9554a55f9ee5e6f0b76ff4343816fa22b7df8905a4de4963c234759db",
+    "dsda_time": "0:49.80",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28821/e1m1-4980eelco.zip"
+  },
+  "dsda-29535": {
+    "id": 29535,
+    "player": "Mike Toliver",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "m1m1m049.lmp",
+    "source_lmp_sha256": "c74fe13c4c511e9d3b6a770db1a235849f107c1eb875f38b2012b30a97e5b938",
+    "dsda_time": "0:49.86",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28822/e1m1-4986.zip"
+  },
+  "dsda-103100": {
+    "id": 103100,
+    "player": "NosequeponerDX",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "doome1m1m049.lmp",
+    "source_lmp_sha256": "d296f3d9bc4c6beb3c3d3cca8f01f55840a24df7aca9acc000ba1d25b55a1b42",
+    "dsda_time": "0:49.97",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/91233/doome1m1m049.zip"
+  },
+  "dsda-29536": {
+    "id": 29536,
+    "player": "Daiyu Xiaoxiang",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "Doom E1M1.lmp",
+    "source_lmp_sha256": "f6f6c1b82d66b76616e94dfee86ab44022582403c28fc6e1c7f2d4d7fec347bf",
+    "dsda_time": "0:50.63",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28823/e1m1-5063.zip"
+  },
+  "dsda-60396": {
+    "id": 60396,
+    "player": "beast",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M1-53.lmp",
+    "source_lmp_sha256": "525179f3e3e63061385c803ca43bd25c5dbb6ba68e8bb22cb0dc34b5eb731d0a",
+    "dsda_time": "0:53.11",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/50520/E1M1-53.zip"
+  },
+  "dsda-94069": {
+    "id": 94069,
+    "player": "Bezby1",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M1_UVMax53/E1M1_UVMAX.lmp",
+    "source_lmp_sha256": "9765d1c38feae72439e435f7a972a5261ab656c0875a6f0840d84f8a6d1544ae",
+    "dsda_time": "0:53.49",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/82370/E1M1_UVMax53.zip"
+  },
+  "dsda-29538": {
+    "id": 29538,
+    "player": "Doomdaniel95",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-053.lmp",
+    "source_lmp_sha256": "3341d5e0e58569a614dc8fbd652096ca5b35fb7dbd6d6fbe7d45955d7305f7a4",
+    "dsda_time": "0:53.66",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28825/e1m1-053dd95.zip"
+  },
+  "dsda-60210": {
+    "id": 60210,
+    "player": "Reelvonic",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-053.lmp",
+    "source_lmp_sha256": "2cac1c28d6c994d46842bf080c6110958a2477bfe26dfe6b8b862611212748bc",
+    "dsda_time": "0:53.97",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/50334/e1m1-053.zip"
+  },
+  "dsda-58223": {
+    "id": 58223,
+    "player": "CmatiC",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "211.lmp",
+    "source_lmp_sha256": "2c253ba84de0a2a4fd2135768878636a6e3175ef0d70dd1c4e8aad97aaf6b64b",
+    "dsda_time": "0:54.23",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/48467/second_run.zip"
+  },
+  "dsda-29539": {
+    "id": 29539,
+    "player": "Robin Woehler",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M1-054.LMP",
+    "source_lmp_sha256": "0a47bf9655441a94548aebb61c2113350cb239863cb1505cf5933465f4e76586",
+    "dsda_time": "0:54.71",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28826/e1m1-054.zip"
+  },
+  "dsda-29540": {
+    "id": 29540,
+    "player": "Marko van der Want",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "M1M1M057.LMP",
+    "source_lmp_sha256": "a8b762e158a42f5760a00bd6fe68a497777f6fd925c1c59aa9d42460bb24251a",
+    "dsda_time": "0:57.94",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28827/e1m1-057.zip"
+  },
+  "dsda-59440": {
+    "id": 59440,
+    "player": "Eric Claus",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1m-58/e1m1m-58.lmp",
+    "source_lmp_sha256": "fc5991979c5344e59a4c92e0dd4e4bd856d655efa7b53d2c9a166e6fa92915ac",
+    "dsda_time": "0:58.46",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/49605/e1m1m-58.zip"
+  },
+  "dsda-83376": {
+    "id": 83376,
+    "player": "The_Enderman",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "de1m1uvmax59.lmp",
+    "source_lmp_sha256": "ce77eef49cf98d24f34041152ce800d9199ddc8b158d46caa930c7bfae1d9606",
+    "dsda_time": "0:59.06",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/72094/de1m1uvmax59.zip"
+  },
+  "dsda-29541": {
+    "id": 29541,
+    "player": "Ralf Schreivogel",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "M1M1R100.LMP",
+    "source_lmp_sha256": "60e4659461dd05ddc0fe8e39d2872231879349e4368c402fe9d56ad7594fb58d",
+    "dsda_time": "1:00.77",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28828/e1m1-100ralf.zip"
+  },
+  "dsda-57468": {
+    "id": 57468,
+    "player": "Daeron",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M1-UVMax1.lmp",
+    "source_lmp_sha256": "fc2005b897d58e3c45bbb1ac513a94c15fd8b8facb19a2c6d1ba796eec2d457e",
+    "dsda_time": "1:02.69",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/47729/E1M1-UVMax1.zip"
+  },
+  "dsda-58224": {
+    "id": 58224,
+    "player": "CmatiC",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1-0.lmp",
+    "source_lmp_sha256": "5d7058f1083a6acd84af188467537db2641974d2db363d2254b04f95ce4da2cf",
+    "dsda_time": "1:03.80",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/48468/first_run.zip"
+  },
+  "dsda-29542": {
+    "id": 29542,
+    "player": "Marko van der Want",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "M1M1M105.LMP",
+    "source_lmp_sha256": "73ce3cbd003fe8f3917904fb0a9db09eafcf7e060275b3601cde08605a1f8b34",
+    "dsda_time": "1:05.89",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28829/e1m1-105python.zip"
+  },
+  "dsda-29543": {
+    "id": 29543,
+    "player": "Eelco de Vries",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M1-108.LMP",
+    "source_lmp_sha256": "7cfcb5a77f09bc5bc6dbb23814bb322203042ab2ab9014b2ac20edd4bac1358e",
+    "dsda_time": "1:08.14",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28830/e1m1-108.zip"
+  },
+  "dsda-112473": {
+    "id": 112473,
+    "player": "Demmon B.M.",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M1-111.LMP",
+    "source_lmp_sha256": "477163a16e2a7f91990670e9cd17b64566687c0fb135376a7d1b7f4111fccc7a",
+    "dsda_time": "1:11.03",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/100178/E1M1-111.zip"
+  },
+  "dsda-29544": {
+    "id": 29544,
+    "player": "Espi",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "111R.LMP",
+    "source_lmp_sha256": "f5218aa15403dcfb8d9cf21ff14774214c7c42184882866f969b2d00d58dfaa2",
+    "dsda_time": "1:11.20",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28831/e1m1-111espi.zip"
+  },
+  "dsda-29545": {
+    "id": 29545,
+    "player": "Eelco de Vries",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M1-121.LMP",
+    "source_lmp_sha256": "00a9774a6b9a9b2c55633aac4da64cad575f45fc64eabe641aff86349da92aea",
+    "dsda_time": "1:12.17",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28832/e1m1-121.zip"
+  },
+  "dsda-29546": {
+    "id": 29546,
+    "player": "Marko van der Want",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "M1M1M117.LMP",
+    "source_lmp_sha256": "e0dfa28a9aff7a295965f0949d6a0133406e70a9b4c0dbce73d3a8b8e34a03a2",
+    "dsda_time": "1:17.46",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28833/e1m1-117.zip"
+  },
+  "dsda-29547": {
+    "id": 29547,
+    "player": "DidierTranber",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "[e1m1 real 0118].lmp",
+    "source_lmp_sha256": "fc4bace44b7ed6effc2767c72bbdca8fdb4f0031cf8b943f728c616313537986",
+    "dsda_time": "1:18.69",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28834/e1m1y118.zip"
+  },
+  "dsda-63861": {
+    "id": 63861,
+    "player": "spo0n",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1uvmax0121.lmp",
+    "source_lmp_sha256": "9655c4003da39fc79cab150382aa54cfb3fd0d19de612b86dd41742b78371fac",
+    "dsda_time": "1:21.89",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/53359/e1m1uvmax0121.zip"
+  },
+  "dsda-29548": {
+    "id": 29548,
+    "player": "TheNoob_Gamer",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1_reality135.lmp",
+    "source_lmp_sha256": "77a5d94c408ee8a1cda4e61d33ed726a8381fc3733d26a1f06c106d1d6a05e6c",
+    "dsda_time": "1:35.83",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28835/e1m1y135.zip"
+  },
+  "dsda-107728": {
+    "id": 107728,
+    "player": "emperor doom",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "ultimate_doom_nohitrun/uv_nohit_run_ep1map1.lmp",
+    "source_lmp_sha256": "5aeca0c4054dec0719f0ebe002382655fb3a3896cec07167257781f65153f5b2",
+    "dsda_time": "2:51.11",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/95692/ultimate_doom_nohitrun_ep1map1.zip"
+  },
+  "dsda-29549": {
+    "id": 29549,
+    "player": "James Young",
+    "complevel": 2,
+    "geometry": "shareware",
+    "source_member": "E1M1-300.LMP",
+    "source_lmp_sha256": "2d871dc681da1c34c62b38b7ff5a64eecea9ad5eb98be081e455e44a6a2f7fb6",
+    "dsda_time": "3:00.00",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28836/e1m1-300.zip"
+  },
+  "dsda-29550": {
+    "id": 29550,
+    "player": "Simon Widlake",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "E1M1-336.LMP",
+    "source_lmp_sha256": "a00501eaebab3e8652fca6c514352162249223201c75285a09681841e66bf7d8",
+    "dsda_time": "3:36.51",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/28837/e1m1-336.zip"
+  },
+  "dsda-108626": {
+    "id": 108626,
+    "player": "kuckkuck",
+    "complevel": 3,
+    "geometry": "romero_DoomMapsSE",
+    "source_member": "e1m1pm1631.lmp",
+    "source_lmp_sha256": "c32c9da47be71d51412d21d447c557cbc420a58dc0677756e9750aa7359a4c71",
+    "dsda_time": "16:31.00",
+    "kills": 29,
+    "total_kills": 29,
+    "secrets": 3,
+    "total_secrets": 3,
+    "url": "https://dsdarchive.com/files/demos/doom/96513/e1m1pm1631.zip"
+  }
+}

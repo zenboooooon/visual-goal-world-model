@@ -1,0 +1,2044 @@
+{
+  "format": "e1m1-mixed-rgb-v1",
+  "size": 192,
+  "reference_id": "train_000",
+  "buttons": [
+    "MOVE_FORWARD",
+    "MOVE_BACKWARD",
+    "MOVE_LEFT",
+    "MOVE_RIGHT",
+    "TURN_LEFT",
+    "TURN_RIGHT",
+    "ATTACK",
+    "USE"
+  ],
+  "episodes": [
+    {
+      "source": "success",
+      "id": "train_000",
+      "frames": 1026,
+      "bank": "success-52620412f0cf07d43c59124b1a89535c554812c5aea0dd009d266f4350b96bef.npy",
+      "sha256": "52620412f0cf07d43c59124b1a89535c554812c5aea0dd009d266f4350b96bef",
+      "original": "../e1m1_auto50/train_000/episode.npz",
+      "labels": "train_000-labels.npz",
+      "label_digest": "1027e3f65ef5cfa750d44f24d6d239d7075071706a217a07fb0f98477aa652b3"
+    },
+    {
+      "source": "success",
+      "id": "train_001",
+      "frames": 990,
+      "bank": "success-753c9ae0857f730061fd1fb0d5023696ecdb7d2da2f5f7c03f35a7f01a6cf6e1.npy",
+      "sha256": "753c9ae0857f730061fd1fb0d5023696ecdb7d2da2f5f7c03f35a7f01a6cf6e1",
+      "original": "../e1m1_auto50/train_001/episode.npz",
+      "labels": "train_001-labels.npz",
+      "label_digest": "6a46c7defb9585458152c02668032be8bf4bba241ac1c9a124cc9a52aeff0e89"
+    },
+    {
+      "source": "success",
+      "id": "train_002",
+      "frames": 974,
+      "bank": "success-fc1f004b1373e4e9762bd77facea3695afae341714ad5928c299b227c3b65ad4.npy",
+      "sha256": "fc1f004b1373e4e9762bd77facea3695afae341714ad5928c299b227c3b65ad4",
+      "original": "../e1m1_auto50/train_002/episode.npz",
+      "labels": "train_002-labels.npz",
+      "label_digest": "e89b4e1684f8161b304d357a36e8961905690e21a1eba9943a7569e16beb0d9a"
+    },
+    {
+      "source": "success",
+      "id": "train_003",
+      "frames": 970,
+      "bank": "success-2a7f156445fa552e0024f44c50cee31f03920d0e2d05165dc9cb02e2140cfd69.npy",
+      "sha256": "2a7f156445fa552e0024f44c50cee31f03920d0e2d05165dc9cb02e2140cfd69",
+      "original": "../e1m1_auto50/train_003/episode.npz",
+      "labels": "train_003-labels.npz",
+      "label_digest": "1282cd12371cd1098719b534f55295b99cf73a71f913003237d5230bd1fc0f24"
+    },
+    {
+      "source": "success",
+      "id": "train_004",
+      "frames": 938,
+      "bank": "success-4236b995158a3a35810fa0e73e7e38eccd9d08c6668b94318ecf733e46e9b74f.npy",
+      "sha256": "4236b995158a3a35810fa0e73e7e38eccd9d08c6668b94318ecf733e46e9b74f",
+      "original": "../e1m1_auto50/train_004/episode.npz",
+      "labels": "train_004-labels.npz",
+      "label_digest": "26fb508183a72310e97ffa338fa8245a9f67205596346c44e03e6875045a6aa6"
+    },
+    {
+      "source": "success",
+      "id": "train_005",
+      "frames": 962,
+      "bank": "success-fa4db9bd1a2c6edab148e57f8830639cf50ffc472f153f9991d39826c47ebf29.npy",
+      "sha256": "fa4db9bd1a2c6edab148e57f8830639cf50ffc472f153f9991d39826c47ebf29",
+      "original": "../e1m1_auto50/train_005/episode.npz",
+      "labels": "train_005-labels.npz",
+      "label_digest": "f0363fe5804be28e01b0be4ae83d4f1335354606b51c931adf7dd9c00bc5a566"
+    },
+    {
+      "source": "success",
+      "id": "train_006",
+      "frames": 1030,
+      "bank": "success-f76940dc32bfa59fc7303b6bb141fdef8e7f4e483a211d9cc8bad72687b106cd.npy",
+      "sha256": "f76940dc32bfa59fc7303b6bb141fdef8e7f4e483a211d9cc8bad72687b106cd",
+      "original": "../e1m1_auto50/train_006/episode.npz",
+      "labels": "train_006-labels.npz",
+      "label_digest": "39908279f87fdd28c1fb6b215115eeecc74442970aa9445d3abb89a887a4422b"
+    },
+    {
+      "source": "success",
+      "id": "train_007",
+      "frames": 1018,
+      "bank": "success-54e97c854a58e29678c7a444f2c54f5fbd2473afc020d30e904dd467a32002ee.npy",
+      "sha256": "54e97c854a58e29678c7a444f2c54f5fbd2473afc020d30e904dd467a32002ee",
+      "original": "../e1m1_auto50/train_007/episode.npz",
+      "labels": "train_007-labels.npz",
+      "label_digest": "520418aa86d64ce518557ea5cb77766f07d4544a76e0c18fbafa3b25fbba5168"
+    },
+    {
+      "source": "success",
+      "id": "train_008",
+      "frames": 1074,
+      "bank": "success-7a356f3e3b0e11fc2a73fa387c0c280bb840cfa70580b6af293af9752d5351e7.npy",
+      "sha256": "7a356f3e3b0e11fc2a73fa387c0c280bb840cfa70580b6af293af9752d5351e7",
+      "original": "../e1m1_auto50/train_008/episode.npz",
+      "labels": "train_008-labels.npz",
+      "label_digest": "9ac622e2246f631dcc0e8fd7fa5607a6004746c75f19d7c32975e1755e15893b"
+    },
+    {
+      "source": "success",
+      "id": "train_009",
+      "frames": 950,
+      "bank": "success-3265bd165c14cd0c69bdc7a72270cb67f74ade981f83e41e0dbfa3dacac5b936.npy",
+      "sha256": "3265bd165c14cd0c69bdc7a72270cb67f74ade981f83e41e0dbfa3dacac5b936",
+      "original": "../e1m1_auto50/train_009/episode.npz",
+      "labels": "train_009-labels.npz",
+      "label_digest": "eeb50677245613af948742a1fe525e5214f758f34eb7aedf76903971ecffdcfe"
+    },
+    {
+      "source": "success",
+      "id": "train_010",
+      "frames": 926,
+      "bank": "success-584eb059be0c82f17866d04874073044fbe1c8ce585bd0144b9c74c769cc1b16.npy",
+      "sha256": "584eb059be0c82f17866d04874073044fbe1c8ce585bd0144b9c74c769cc1b16",
+      "original": "../e1m1_auto50/train_010/episode.npz",
+      "labels": "train_010-labels.npz",
+      "label_digest": "f8e488b850119544a7c25d13e58b085740034676a6b99964d02bd21ef48ef2f6"
+    },
+    {
+      "source": "success",
+      "id": "train_011",
+      "frames": 990,
+      "bank": "success-dc066206a05b85e1f459374977fd110866bb838ef913336936a05a7948e06460.npy",
+      "sha256": "dc066206a05b85e1f459374977fd110866bb838ef913336936a05a7948e06460",
+      "original": "../e1m1_auto50/train_011/episode.npz",
+      "labels": "train_011-labels.npz",
+      "label_digest": "1bb813bf66c790d1505e56ce31f20c4432eac8bb526d17eb6d1bb024ab9a9e70"
+    },
+    {
+      "source": "success",
+      "id": "train_012",
+      "frames": 1038,
+      "bank": "success-f5194e332766923845059c51ffffa84024c70173350ec1f3c30bbde6d747eea1.npy",
+      "sha256": "f5194e332766923845059c51ffffa84024c70173350ec1f3c30bbde6d747eea1",
+      "original": "../e1m1_auto50/train_012/episode.npz",
+      "labels": "train_012-labels.npz",
+      "label_digest": "b4efcc8a1df441370fe9c3f52a69e0c10f59d85de45c75ec3470fb82fcaee17d"
+    },
+    {
+      "source": "success",
+      "id": "train_013",
+      "frames": 986,
+      "bank": "success-058e363664201ed442209c969eb2859c33d6f2a4619bc4f0c4fadbf15a9613df.npy",
+      "sha256": "058e363664201ed442209c969eb2859c33d6f2a4619bc4f0c4fadbf15a9613df",
+      "original": "../e1m1_auto50/train_013/episode.npz",
+      "labels": "train_013-labels.npz",
+      "label_digest": "4d9d07e3e8d4d74edea0f64e7515de9d7d99bdb9414f1107099377a39c69f8fc"
+    },
+    {
+      "source": "success",
+      "id": "train_014",
+      "frames": 1066,
+      "bank": "success-5586406f603a949dc829f1b6d3f322984f4e5725695956382c4ad8eebdaa3e2e.npy",
+      "sha256": "5586406f603a949dc829f1b6d3f322984f4e5725695956382c4ad8eebdaa3e2e",
+      "original": "../e1m1_auto50/train_014/episode.npz",
+      "labels": "train_014-labels.npz",
+      "label_digest": "28e58d54a92183f5f8b9f59bf0ca838600d7c943d571eb20b081e2212e5ccd49"
+    },
+    {
+      "source": "success",
+      "id": "train_015",
+      "frames": 966,
+      "bank": "success-6c217b0a3d4fbca7b1612fca0ad9ac7cc391e74ed38466e09f48b857e98c9154.npy",
+      "sha256": "6c217b0a3d4fbca7b1612fca0ad9ac7cc391e74ed38466e09f48b857e98c9154",
+      "original": "../e1m1_auto50/train_015/episode.npz",
+      "labels": "train_015-labels.npz",
+      "label_digest": "aea51e355cb0bd39f29f515505d7f78a5243924bace1067c8dad987488060304"
+    },
+    {
+      "source": "success",
+      "id": "train_016",
+      "frames": 918,
+      "bank": "success-7dadf40e454df914512e2294d4c5681a4c912d8ceef2e4683103e03cd7826b32.npy",
+      "sha256": "7dadf40e454df914512e2294d4c5681a4c912d8ceef2e4683103e03cd7826b32",
+      "original": "../e1m1_auto50/train_016/episode.npz",
+      "labels": "train_016-labels.npz",
+      "label_digest": "d29ebe4d20e95c01687239b41db4ce7db41b520ca408e163bed01e1679d3ed15"
+    },
+    {
+      "source": "success",
+      "id": "train_017",
+      "frames": 990,
+      "bank": "success-9f649e97bebdef66f539d867f0390aecdbac29727e9887fcca98452643bcc2c3.npy",
+      "sha256": "9f649e97bebdef66f539d867f0390aecdbac29727e9887fcca98452643bcc2c3",
+      "original": "../e1m1_auto50/train_017/episode.npz",
+      "labels": "train_017-labels.npz",
+      "label_digest": "5bc93e7146c2d3f03093aaee13cb2a004732bcb06c2aaeadc2067e6d47cdfbfc"
+    },
+    {
+      "source": "success",
+      "id": "train_018",
+      "frames": 970,
+      "bank": "success-755cc91f0fbdd52dcdf4dbd2d064147dedbe9a5cd6dfa92b10e77e569f04ba8d.npy",
+      "sha256": "755cc91f0fbdd52dcdf4dbd2d064147dedbe9a5cd6dfa92b10e77e569f04ba8d",
+      "original": "../e1m1_auto50/train_018/episode.npz",
+      "labels": "train_018-labels.npz",
+      "label_digest": "e03ef5b82b9c2a51e6f94392ca81f14710a3989a70f2cd107e0f532bfc2ca3e0"
+    },
+    {
+      "source": "success",
+      "id": "train_019",
+      "frames": 950,
+      "bank": "success-dd5c87840179d1a8529628d62e1cae1f63590b8f58447cda037c495e0bd548b4.npy",
+      "sha256": "dd5c87840179d1a8529628d62e1cae1f63590b8f58447cda037c495e0bd548b4",
+      "original": "../e1m1_auto50/train_019/episode.npz",
+      "labels": "train_019-labels.npz",
+      "label_digest": "a8f828a7da6dedbd61274c6832bb03ae2cca9c5c1a7c52b9b6e148407b777b15"
+    },
+    {
+      "source": "success",
+      "id": "train_020",
+      "frames": 962,
+      "bank": "success-34b09d9edf282377c60baf1a780803b0167436617f697cd263646ee4011a7860.npy",
+      "sha256": "34b09d9edf282377c60baf1a780803b0167436617f697cd263646ee4011a7860",
+      "original": "../e1m1_auto50/train_020/episode.npz",
+      "labels": "train_020-labels.npz",
+      "label_digest": "8da06a6eb8e78a58a57b820b737e5046803521d0d740707aaa56559025712c9c"
+    },
+    {
+      "source": "success",
+      "id": "train_021",
+      "frames": 1030,
+      "bank": "success-7490a2823d4fb410737ed941a3ab52ed9030fbcff23b440e2219c28b8c1954f3.npy",
+      "sha256": "7490a2823d4fb410737ed941a3ab52ed9030fbcff23b440e2219c28b8c1954f3",
+      "original": "../e1m1_auto50/train_021/episode.npz",
+      "labels": "train_021-labels.npz",
+      "label_digest": "177adb18a5b4edf51ff07c4ee7b4ac1f3169880b8577b42210a727698bcc0910"
+    },
+    {
+      "source": "success",
+      "id": "train_022",
+      "frames": 1050,
+      "bank": "success-92a4621029c19d0e9ecd0aed06d35d5d2a3e031c8bbf276f3449d37120ddf0ae.npy",
+      "sha256": "92a4621029c19d0e9ecd0aed06d35d5d2a3e031c8bbf276f3449d37120ddf0ae",
+      "original": "../e1m1_auto50/train_022/episode.npz",
+      "labels": "train_022-labels.npz",
+      "label_digest": "4b31077dfcbc16a88b412f64da31a8ccb2a1e324703ecce4c0f7a7b3e7e2af44"
+    },
+    {
+      "source": "success",
+      "id": "train_023",
+      "frames": 982,
+      "bank": "success-d9d4424f851cc763e0edb5dc9dde3087948a3c4c67c57b0b0aebf4995f1ece89.npy",
+      "sha256": "d9d4424f851cc763e0edb5dc9dde3087948a3c4c67c57b0b0aebf4995f1ece89",
+      "original": "../e1m1_auto50/train_023/episode.npz",
+      "labels": "train_023-labels.npz",
+      "label_digest": "f5b19af0c123585edd4961f0724f3c1083d03be171e0379f0461c0ff5833972a"
+    },
+    {
+      "source": "success",
+      "id": "train_024",
+      "frames": 962,
+      "bank": "success-4d360d7fbe1fc18a1bf60b2860277d35d44ec7dde4d75c955f85f862f033e9b6.npy",
+      "sha256": "4d360d7fbe1fc18a1bf60b2860277d35d44ec7dde4d75c955f85f862f033e9b6",
+      "original": "../e1m1_auto50/train_024/episode.npz",
+      "labels": "train_024-labels.npz",
+      "label_digest": "9e311b9cc02c04306219a32d0f3f6f88f29fc762cf00c0df9323d6fda4746df5"
+    },
+    {
+      "source": "success",
+      "id": "train_025",
+      "frames": 1026,
+      "bank": "success-97346dab94663242bcbef1c51bd82dc7e83a97d9a029b88d2e63611b80a86b36.npy",
+      "sha256": "97346dab94663242bcbef1c51bd82dc7e83a97d9a029b88d2e63611b80a86b36",
+      "original": "../e1m1_auto50/train_025/episode.npz",
+      "labels": "train_025-labels.npz",
+      "label_digest": "03c1f7f0e68c78b0d7cfaa8c0d50cf65cdcd6517b9c6e7b5bd4ce32c98597161"
+    },
+    {
+      "source": "success",
+      "id": "train_026",
+      "frames": 1002,
+      "bank": "success-aa14a7caaa8066a13c26b9592b8d979c41b678ff9e8b5787b0ac5eabc4b5e5a3.npy",
+      "sha256": "aa14a7caaa8066a13c26b9592b8d979c41b678ff9e8b5787b0ac5eabc4b5e5a3",
+      "original": "../e1m1_auto50/train_026/episode.npz",
+      "labels": "train_026-labels.npz",
+      "label_digest": "d1d4910ea6c89446472e9e66a2b68fc648c55891354890017debc531a405c869"
+    },
+    {
+      "source": "success",
+      "id": "train_027",
+      "frames": 994,
+      "bank": "success-558936e37f70a04e739da1273ce68fa133d8249148cb8b26b00dd0101a518dd2.npy",
+      "sha256": "558936e37f70a04e739da1273ce68fa133d8249148cb8b26b00dd0101a518dd2",
+      "original": "../e1m1_auto50/train_027/episode.npz",
+      "labels": "train_027-labels.npz",
+      "label_digest": "ef3d9e44b71faa0e9a635961511a76e31bb2cc6e8d1dbe75b05246dd15b0b426"
+    },
+    {
+      "source": "success",
+      "id": "train_028",
+      "frames": 882,
+      "bank": "success-3ae148094e7909e5e9c569b43f7a58d5ac4dd97edd93547c6705d4810908dfc8.npy",
+      "sha256": "3ae148094e7909e5e9c569b43f7a58d5ac4dd97edd93547c6705d4810908dfc8",
+      "original": "../e1m1_auto50/train_028/episode.npz",
+      "labels": "train_028-labels.npz",
+      "label_digest": "1bac8b8a0042d4ded0ddd16e218d0ea8f91cfa2d6b915ba2e9f4b2423d591fae"
+    },
+    {
+      "source": "success",
+      "id": "train_029",
+      "frames": 1034,
+      "bank": "success-cfacf95d0e13e1ff1338e06048fa05470f1d162cf312bdf30c2eb723931baab7.npy",
+      "sha256": "cfacf95d0e13e1ff1338e06048fa05470f1d162cf312bdf30c2eb723931baab7",
+      "original": "../e1m1_auto50/train_029/episode.npz",
+      "labels": "train_029-labels.npz",
+      "label_digest": "e5c5f25943cb007cce442ec9c38c19f33975dc9c551f9452b4490630bf85c7b7"
+    },
+    {
+      "source": "success",
+      "id": "train_030",
+      "frames": 954,
+      "bank": "success-d2f703e0af21f92d660bc70948d297f1fb3c3fb717b8ef6be4b6dd42b256d621.npy",
+      "sha256": "d2f703e0af21f92d660bc70948d297f1fb3c3fb717b8ef6be4b6dd42b256d621",
+      "original": "../e1m1_auto50/train_030/episode.npz",
+      "labels": "train_030-labels.npz",
+      "label_digest": "ee39e1f940a8866e99b7acfa69fead4871ccd5383ed4b22ded1fc42ef127cdc1"
+    },
+    {
+      "source": "success",
+      "id": "train_031",
+      "frames": 894,
+      "bank": "success-12435b0a254ea41f0ebb54e9c67e5c95242e5631f047de1949db4c4193ee777e.npy",
+      "sha256": "12435b0a254ea41f0ebb54e9c67e5c95242e5631f047de1949db4c4193ee777e",
+      "original": "../e1m1_auto50/train_031/episode.npz",
+      "labels": "train_031-labels.npz",
+      "label_digest": "4929ddc8f23b9ba3ec09cb7824bc69dd3f0736fb8372b7ec2a04b29224620a97"
+    },
+    {
+      "source": "success",
+      "id": "train_032",
+      "frames": 970,
+      "bank": "success-38044c46ec17c4c9953621ad1e4b8f3572f389abdd4cd9471682226ad1227bf3.npy",
+      "sha256": "38044c46ec17c4c9953621ad1e4b8f3572f389abdd4cd9471682226ad1227bf3",
+      "original": "../e1m1_auto50/train_032/episode.npz",
+      "labels": "train_032-labels.npz",
+      "label_digest": "0a6a66b42c6e8c5097689753322e7e5ee886b375af8329eb9db433936cfa99e0"
+    },
+    {
+      "source": "success",
+      "id": "train_033",
+      "frames": 978,
+      "bank": "success-9e1a8af61e24dd571df246e12145d204f10cb7e3a6db4f27bfdcbd11657c2edb.npy",
+      "sha256": "9e1a8af61e24dd571df246e12145d204f10cb7e3a6db4f27bfdcbd11657c2edb",
+      "original": "../e1m1_auto50/train_033/episode.npz",
+      "labels": "train_033-labels.npz",
+      "label_digest": "2bbeb2ddffb6e22c47e3932743c0f1a3ca2c3f79415f2849e3fd33b765e16301"
+    },
+    {
+      "source": "success",
+      "id": "train_034",
+      "frames": 1074,
+      "bank": "success-1086d044ec8e97c4a28d10f70e74ce0221eac04b61ef57654d9b12ce864f80d3.npy",
+      "sha256": "1086d044ec8e97c4a28d10f70e74ce0221eac04b61ef57654d9b12ce864f80d3",
+      "original": "../e1m1_auto50/train_034/episode.npz",
+      "labels": "train_034-labels.npz",
+      "label_digest": "6ccf26e0453e051323346daeb53af4a4dea5543f2c38c78b7959e002721958d4"
+    },
+    {
+      "source": "success",
+      "id": "train_035",
+      "frames": 1038,
+      "bank": "success-1064b8521ebe7e4af69613f5fcbc077f28940206d18e0b753fb34c8de837f6d5.npy",
+      "sha256": "1064b8521ebe7e4af69613f5fcbc077f28940206d18e0b753fb34c8de837f6d5",
+      "original": "../e1m1_auto50/train_035/episode.npz",
+      "labels": "train_035-labels.npz",
+      "label_digest": "8e4631ae2de8100c87f9d067a118f18c93b36c67eaffacf535051d773bfa76e3"
+    },
+    {
+      "source": "success",
+      "id": "train_036",
+      "frames": 978,
+      "bank": "success-5523136efa9011ed4d0377a6a76379f5384cf1b026caa32d3573c63e3f87fe94.npy",
+      "sha256": "5523136efa9011ed4d0377a6a76379f5384cf1b026caa32d3573c63e3f87fe94",
+      "original": "../e1m1_auto50/train_036/episode.npz",
+      "labels": "train_036-labels.npz",
+      "label_digest": "a4f0b80d55057cf1b0820aaf2fae4af8599fba05109868f9501bb888a1276671"
+    },
+    {
+      "source": "success",
+      "id": "train_037",
+      "frames": 1070,
+      "bank": "success-ef4d912275a596b314f205dffe7d7138ec815ec4f2ded6beeb6c620c7930b50d.npy",
+      "sha256": "ef4d912275a596b314f205dffe7d7138ec815ec4f2ded6beeb6c620c7930b50d",
+      "original": "../e1m1_auto50/train_037/episode.npz",
+      "labels": "train_037-labels.npz",
+      "label_digest": "e5989c431394a40221c18a865a97ce8be49cae52a6257a6247c373219d51ec24"
+    },
+    {
+      "source": "success",
+      "id": "train_038",
+      "frames": 946,
+      "bank": "success-a47a8b26aec4857e98d6e09b50392cdab67fece137f36849191f19b6ce80448e.npy",
+      "sha256": "a47a8b26aec4857e98d6e09b50392cdab67fece137f36849191f19b6ce80448e",
+      "original": "../e1m1_auto50/train_038/episode.npz",
+      "labels": "train_038-labels.npz",
+      "label_digest": "de14964c2f198317ede2a8591dc8e30ebc2c68e1fd9f5936b0cbc0a5b5def4f7"
+    },
+    {
+      "source": "success",
+      "id": "train_039",
+      "frames": 978,
+      "bank": "success-ea97f8a6d07bf21691ed819a70020858928c14a132e7b44ee44b902ca72083f5.npy",
+      "sha256": "ea97f8a6d07bf21691ed819a70020858928c14a132e7b44ee44b902ca72083f5",
+      "original": "../e1m1_auto50/train_039/episode.npz",
+      "labels": "train_039-labels.npz",
+      "label_digest": "b12920da923e7bbf6f9ac10822eb5172ef91d8cf54d43e5377db773e89368411"
+    },
+    {
+      "source": "success",
+      "id": "train_040",
+      "frames": 1002,
+      "bank": "success-470477a2737e2cdb0b22822c84b6e7a495633370049838dbe261b72a40b86c48.npy",
+      "sha256": "470477a2737e2cdb0b22822c84b6e7a495633370049838dbe261b72a40b86c48",
+      "original": "../e1m1_auto50/train_040/episode.npz",
+      "labels": "train_040-labels.npz",
+      "label_digest": "5a1e3b7a6a143d3594dc67d9bcd5e0a9b2089a3d664815b5737fc17666ff03bd"
+    },
+    {
+      "source": "success",
+      "id": "train_041",
+      "frames": 986,
+      "bank": "success-d9ac9f52d1605c9081af7f87ac433ee4d5dcc12a18698f1962db6fd9c80b49c5.npy",
+      "sha256": "d9ac9f52d1605c9081af7f87ac433ee4d5dcc12a18698f1962db6fd9c80b49c5",
+      "original": "../e1m1_auto50/train_041/episode.npz",
+      "labels": "train_041-labels.npz",
+      "label_digest": "d51bfedfbe4c31da333b3659d7107b5d89196e1c58495e533c07e02c40b8828f"
+    },
+    {
+      "source": "success",
+      "id": "train_042",
+      "frames": 966,
+      "bank": "success-765d7640be4b3a8e7049b99c9dc5f0d617b280f7493aa7befba7ebc6125d5769.npy",
+      "sha256": "765d7640be4b3a8e7049b99c9dc5f0d617b280f7493aa7befba7ebc6125d5769",
+      "original": "../e1m1_auto50/train_042/episode.npz",
+      "labels": "train_042-labels.npz",
+      "label_digest": "84214abdd88bcd13a8eff7de38858058d001499d199a6b6f93117ddfa8ad94cf"
+    },
+    {
+      "source": "success",
+      "id": "train_043",
+      "frames": 938,
+      "bank": "success-7f5a474eabd81704acd36ceb1aa44f0b2b1fbdcf249383a49af12c7feefdc45a.npy",
+      "sha256": "7f5a474eabd81704acd36ceb1aa44f0b2b1fbdcf249383a49af12c7feefdc45a",
+      "original": "../e1m1_auto50/train_043/episode.npz",
+      "labels": "train_043-labels.npz",
+      "label_digest": "9e9fa9fb37ab3a04c789c83754ca9a812e1fa8ff3c77951a6db0d4da5d8da935"
+    },
+    {
+      "source": "success",
+      "id": "train_044",
+      "frames": 874,
+      "bank": "success-394fa2dde2f6e7d0258a2c44c5b08fdb258f8e732aa1ecfa8c327bbb94e38f25.npy",
+      "sha256": "394fa2dde2f6e7d0258a2c44c5b08fdb258f8e732aa1ecfa8c327bbb94e38f25",
+      "original": "../e1m1_auto50/train_044/episode.npz",
+      "labels": "train_044-labels.npz",
+      "label_digest": "96dbd7df9bc9599e5d8362f51ece8a8761e3fba06d87c863345a53d4fddd89c1"
+    },
+    {
+      "source": "success",
+      "id": "train_045",
+      "frames": 1026,
+      "bank": "success-25c601feeaa13e6a88dbd8c65c337ccb11cb36f7af4efdec3c7ef1f696646156.npy",
+      "sha256": "25c601feeaa13e6a88dbd8c65c337ccb11cb36f7af4efdec3c7ef1f696646156",
+      "original": "../e1m1_auto50/train_045/episode.npz",
+      "labels": "train_045-labels.npz",
+      "label_digest": "53e9dd2ec4abd5b39aba67211187566ec9c81d3cecdb9b06b4e8b23bb732d820",
+      "dev_start": 604
+    },
+    {
+      "source": "success",
+      "id": "train_046",
+      "frames": 970,
+      "bank": "success-d2024e2235b2c833569c708f48fa91031415f600e90ab9f21bfd5a1690b39e6c.npy",
+      "sha256": "d2024e2235b2c833569c708f48fa91031415f600e90ab9f21bfd5a1690b39e6c",
+      "original": "../e1m1_auto50/train_046/episode.npz",
+      "labels": "train_046-labels.npz",
+      "label_digest": "e5a5b00361fbca6aeba236b169f3235f07f98d483e9b06865d2f98f2062277cc",
+      "dev_start": 548
+    },
+    {
+      "source": "success",
+      "id": "train_047",
+      "frames": 958,
+      "bank": "success-91b0cd7f5eef4f3234bd7f0a26eb6dd933560c2985121e5373aa9d9221c70e03.npy",
+      "sha256": "91b0cd7f5eef4f3234bd7f0a26eb6dd933560c2985121e5373aa9d9221c70e03",
+      "original": "../e1m1_auto50/train_047/episode.npz",
+      "labels": "train_047-labels.npz",
+      "label_digest": "d268c2e2612d14aa90ac7dd7796c580839886bc8e5b84c2e0d770a3ba8c46068",
+      "dev_start": 536
+    },
+    {
+      "source": "success",
+      "id": "train_048",
+      "frames": 1018,
+      "bank": "success-d904d36e33bb081f7d5d8f3ecaceeea2d280ca27e3926d1880fb5ef641cfbc24.npy",
+      "sha256": "d904d36e33bb081f7d5d8f3ecaceeea2d280ca27e3926d1880fb5ef641cfbc24",
+      "original": "../e1m1_auto50/train_048/episode.npz",
+      "labels": "train_048-labels.npz",
+      "label_digest": "27a8766726c31d5cff96edaa74dc75797938ad8f3867443c1a2d239284f27c77",
+      "dev_start": 596
+    },
+    {
+      "source": "success",
+      "id": "train_049",
+      "frames": 974,
+      "bank": "success-717b627d7c0947ca9114e774aeb63bbd4f0b7b979f20c245050c0d18f35569dc.npy",
+      "sha256": "717b627d7c0947ca9114e774aeb63bbd4f0b7b979f20c245050c0d18f35569dc",
+      "original": "../e1m1_auto50/train_049/episode.npz",
+      "labels": "train_049-labels.npz",
+      "label_digest": "6cb34a027b4f8a06ac2dfdfbdb63f28eae17ce06a9692cc3ddb9371c87819c14",
+      "dev_start": 552
+    },
+    {
+      "source": "death",
+      "id": "death_191000",
+      "frames": 885,
+      "bank": "death-20b9735923ddd0e6f05472a3ab022dde1e48260a92553c6b97495cbde3ae2a70.npy",
+      "sha256": "20b9735923ddd0e6f05472a3ab022dde1e48260a92553c6b97495cbde3ae2a70",
+      "original": "../e1m1_auto_death100/death_191000/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191001",
+      "frames": 643,
+      "bank": "death-6d4bfd1e2f057397bc333a38cb7f85eac462fd5e8b977972e1a9ac64424a4e6e.npy",
+      "sha256": "6d4bfd1e2f057397bc333a38cb7f85eac462fd5e8b977972e1a9ac64424a4e6e",
+      "original": "../e1m1_auto_death100/death_191001/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191002",
+      "frames": 633,
+      "bank": "death-5a20134a25a34a7b7d9760aaa8eb079ec4b2d3091969cc9333f9bb85ce3282b4.npy",
+      "sha256": "5a20134a25a34a7b7d9760aaa8eb079ec4b2d3091969cc9333f9bb85ce3282b4",
+      "original": "../e1m1_auto_death100/death_191002/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191003",
+      "frames": 592,
+      "bank": "death-5b5416bd42ae38bb94d094c8ddd889f7da555df4d4b945ed2cd7734c18cefc81.npy",
+      "sha256": "5b5416bd42ae38bb94d094c8ddd889f7da555df4d4b945ed2cd7734c18cefc81",
+      "original": "../e1m1_auto_death100/death_191003/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191004",
+      "frames": 631,
+      "bank": "death-78221bb7b5e13ebeedb8a9ac27bfcc4037e460ab6431fb33f4c173322d425ebd.npy",
+      "sha256": "78221bb7b5e13ebeedb8a9ac27bfcc4037e460ab6431fb33f4c173322d425ebd",
+      "original": "../e1m1_auto_death100/death_191004/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191005",
+      "frames": 636,
+      "bank": "death-67c9dda872023f6840da4d0d1c8261ab7dc10a413d6c89f4f0c27af4d1248aa5.npy",
+      "sha256": "67c9dda872023f6840da4d0d1c8261ab7dc10a413d6c89f4f0c27af4d1248aa5",
+      "original": "../e1m1_auto_death100/death_191005/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191006",
+      "frames": 576,
+      "bank": "death-f5a2337dfb9bfe4f82194723149f743219cfe4ac00c79b327587fc44fe432e69.npy",
+      "sha256": "f5a2337dfb9bfe4f82194723149f743219cfe4ac00c79b327587fc44fe432e69",
+      "original": "../e1m1_auto_death100/death_191006/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191007",
+      "frames": 557,
+      "bank": "death-750fcb8f6d5be01c60cdd4d830244b3031abb3989ffc3c3c186fc9f072a43508.npy",
+      "sha256": "750fcb8f6d5be01c60cdd4d830244b3031abb3989ffc3c3c186fc9f072a43508",
+      "original": "../e1m1_auto_death100/death_191007/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191008",
+      "frames": 482,
+      "bank": "death-dc75c4790c7df6d94e8fadf374ef135dc51316f3209d8c61775e54fa666d2927.npy",
+      "sha256": "dc75c4790c7df6d94e8fadf374ef135dc51316f3209d8c61775e54fa666d2927",
+      "original": "../e1m1_auto_death100/death_191008/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191009",
+      "frames": 504,
+      "bank": "death-839b47e9e225d1741da7bbddcec28d8acfe24267d56d5cbb73f7635ce7c13ddc.npy",
+      "sha256": "839b47e9e225d1741da7bbddcec28d8acfe24267d56d5cbb73f7635ce7c13ddc",
+      "original": "../e1m1_auto_death100/death_191009/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191010",
+      "frames": 502,
+      "bank": "death-d396b568522bcbe8cb87dd3b0975080c101f0fc575196a71c94dbf572ffa5317.npy",
+      "sha256": "d396b568522bcbe8cb87dd3b0975080c101f0fc575196a71c94dbf572ffa5317",
+      "original": "../e1m1_auto_death100/death_191010/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191011",
+      "frames": 848,
+      "bank": "death-98862cdeac5bd799c139556a7264c50a8c767c64f8cef9979fc310f422620406.npy",
+      "sha256": "98862cdeac5bd799c139556a7264c50a8c767c64f8cef9979fc310f422620406",
+      "original": "../e1m1_auto_death100/death_191011/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191012",
+      "frames": 796,
+      "bank": "death-a9d88852bfe552bbe33b35d88d7677875d99ed55f044ae671aeb35c99aff2701.npy",
+      "sha256": "a9d88852bfe552bbe33b35d88d7677875d99ed55f044ae671aeb35c99aff2701",
+      "original": "../e1m1_auto_death100/death_191012/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191013",
+      "frames": 546,
+      "bank": "death-61c32fd261eeadb22e9cd7f2d1374f2ecad07200ed849a5a9decc593503b2c24.npy",
+      "sha256": "61c32fd261eeadb22e9cd7f2d1374f2ecad07200ed849a5a9decc593503b2c24",
+      "original": "../e1m1_auto_death100/death_191013/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191014",
+      "frames": 823,
+      "bank": "death-22cef65ccabc85e90fef68b598fd1294e5ea5cae4b4fce0fa4328a0964c88cdd.npy",
+      "sha256": "22cef65ccabc85e90fef68b598fd1294e5ea5cae4b4fce0fa4328a0964c88cdd",
+      "original": "../e1m1_auto_death100/death_191014/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191016",
+      "frames": 605,
+      "bank": "death-e5329eb74c726319a27a8dd1d96cf3d2dbc041223000638d70861373447c7e5d.npy",
+      "sha256": "e5329eb74c726319a27a8dd1d96cf3d2dbc041223000638d70861373447c7e5d",
+      "original": "../e1m1_auto_death100/death_191016/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191017",
+      "frames": 499,
+      "bank": "death-c3d776bb6b0fe4db679c529bbdba9980bf2904c1b8c5026eb30c1b5ef0d4e078.npy",
+      "sha256": "c3d776bb6b0fe4db679c529bbdba9980bf2904c1b8c5026eb30c1b5ef0d4e078",
+      "original": "../e1m1_auto_death100/death_191017/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191018",
+      "frames": 822,
+      "bank": "death-2b87419f09f88058d9559893ff4463bc860c96f277644c4dac0a9b8e05562697.npy",
+      "sha256": "2b87419f09f88058d9559893ff4463bc860c96f277644c4dac0a9b8e05562697",
+      "original": "../e1m1_auto_death100/death_191018/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191019",
+      "frames": 534,
+      "bank": "death-5293323a843cf3119d397136a0ca50ff42e8d6a3b6650effa8035fcb5c8ee29f.npy",
+      "sha256": "5293323a843cf3119d397136a0ca50ff42e8d6a3b6650effa8035fcb5c8ee29f",
+      "original": "../e1m1_auto_death100/death_191019/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191020",
+      "frames": 549,
+      "bank": "death-f3f67259750358105e14e88b0afcdad651b57b19bb831d9cde980c2a8da18560.npy",
+      "sha256": "f3f67259750358105e14e88b0afcdad651b57b19bb831d9cde980c2a8da18560",
+      "original": "../e1m1_auto_death100/death_191020/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191021",
+      "frames": 667,
+      "bank": "death-cb3758c88fc2f48ae44394f16a45ed75c3dbfe2d3cf2acd20b079de687c6f046.npy",
+      "sha256": "cb3758c88fc2f48ae44394f16a45ed75c3dbfe2d3cf2acd20b079de687c6f046",
+      "original": "../e1m1_auto_death100/death_191021/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191022",
+      "frames": 770,
+      "bank": "death-edc6f24f6a8a3ef938a7934f2e960f51b04234e0b0948856659eaff6acbf0f6f.npy",
+      "sha256": "edc6f24f6a8a3ef938a7934f2e960f51b04234e0b0948856659eaff6acbf0f6f",
+      "original": "../e1m1_auto_death100/death_191022/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191023",
+      "frames": 584,
+      "bank": "death-98017c51f9adb632a2e0c1a16915b890ef2b29a773e8667f9e2180d84a3bb3e1.npy",
+      "sha256": "98017c51f9adb632a2e0c1a16915b890ef2b29a773e8667f9e2180d84a3bb3e1",
+      "original": "../e1m1_auto_death100/death_191023/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191024",
+      "frames": 617,
+      "bank": "death-6f8c912503d8b7b40b44528271f613760dac064536451323ce62e9080e5a9f1f.npy",
+      "sha256": "6f8c912503d8b7b40b44528271f613760dac064536451323ce62e9080e5a9f1f",
+      "original": "../e1m1_auto_death100/death_191024/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191025",
+      "frames": 560,
+      "bank": "death-e6c304de2e6244ebbf2b0dca3153d52b788172b22bed0cc49824d0252f1bf2cf.npy",
+      "sha256": "e6c304de2e6244ebbf2b0dca3153d52b788172b22bed0cc49824d0252f1bf2cf",
+      "original": "../e1m1_auto_death100/death_191025/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191026",
+      "frames": 674,
+      "bank": "death-f216b22102ab6812ac4519d88ade7dc46558a3d8a22664b26a112044ebc8c03d.npy",
+      "sha256": "f216b22102ab6812ac4519d88ade7dc46558a3d8a22664b26a112044ebc8c03d",
+      "original": "../e1m1_auto_death100/death_191026/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191027",
+      "frames": 477,
+      "bank": "death-f5413655ae947a4ff8340c1fe52b5170a78966f58a8607f05e0523579785fc67.npy",
+      "sha256": "f5413655ae947a4ff8340c1fe52b5170a78966f58a8607f05e0523579785fc67",
+      "original": "../e1m1_auto_death100/death_191027/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191028",
+      "frames": 841,
+      "bank": "death-da84cf657e2f2bf44f0e6ebec630ee1a9b9239d3609af17076315944fda570f1.npy",
+      "sha256": "da84cf657e2f2bf44f0e6ebec630ee1a9b9239d3609af17076315944fda570f1",
+      "original": "../e1m1_auto_death100/death_191028/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191029",
+      "frames": 648,
+      "bank": "death-5193c59ef9ab84282be48ec8b75440e12a049dd9e3332ec4b4bc6d35871758fa.npy",
+      "sha256": "5193c59ef9ab84282be48ec8b75440e12a049dd9e3332ec4b4bc6d35871758fa",
+      "original": "../e1m1_auto_death100/death_191029/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191030",
+      "frames": 578,
+      "bank": "death-d2b8bb35a541a447eba773da20bd003b728d393bcb21c2767762ca7ca347f7b3.npy",
+      "sha256": "d2b8bb35a541a447eba773da20bd003b728d393bcb21c2767762ca7ca347f7b3",
+      "original": "../e1m1_auto_death100/death_191030/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191031",
+      "frames": 592,
+      "bank": "death-6cd5e91fca9cd563e007b115e0dd6d3defcb8e148a8d8e881fe64eeca73dc92d.npy",
+      "sha256": "6cd5e91fca9cd563e007b115e0dd6d3defcb8e148a8d8e881fe64eeca73dc92d",
+      "original": "../e1m1_auto_death100/death_191031/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191032",
+      "frames": 778,
+      "bank": "death-be325820a164f0944c1e07adce05e361f8b4f4a05b449a6feb3d262c10bf16fb.npy",
+      "sha256": "be325820a164f0944c1e07adce05e361f8b4f4a05b449a6feb3d262c10bf16fb",
+      "original": "../e1m1_auto_death100/death_191032/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191033",
+      "frames": 873,
+      "bank": "death-be376e30b2194ed361685e11bfd61f752cf69f17c8d0fb5a440662d3cd4cd08e.npy",
+      "sha256": "be376e30b2194ed361685e11bfd61f752cf69f17c8d0fb5a440662d3cd4cd08e",
+      "original": "../e1m1_auto_death100/death_191033/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191034",
+      "frames": 458,
+      "bank": "death-6842126ac5cd490bf76bb3586b40e09cab343fe9911b936e9b788074b665fb20.npy",
+      "sha256": "6842126ac5cd490bf76bb3586b40e09cab343fe9911b936e9b788074b665fb20",
+      "original": "../e1m1_auto_death100/death_191034/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191036",
+      "frames": 987,
+      "bank": "death-4b89ba616ed7999405e816a96e6322cb8756c0b7ed1f77f6002d851d4f8ece83.npy",
+      "sha256": "4b89ba616ed7999405e816a96e6322cb8756c0b7ed1f77f6002d851d4f8ece83",
+      "original": "../e1m1_auto_death100/death_191036/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191037",
+      "frames": 613,
+      "bank": "death-142eed07c9cfcfdaf822b3856e533bba3d35c94e8eff2a9ed4531b651e4e541e.npy",
+      "sha256": "142eed07c9cfcfdaf822b3856e533bba3d35c94e8eff2a9ed4531b651e4e541e",
+      "original": "../e1m1_auto_death100/death_191037/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191038",
+      "frames": 808,
+      "bank": "death-e099ed79dee90dc6af561058ececb2ce2612e81dafc968901e8381dee967d4fe.npy",
+      "sha256": "e099ed79dee90dc6af561058ececb2ce2612e81dafc968901e8381dee967d4fe",
+      "original": "../e1m1_auto_death100/death_191038/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191039",
+      "frames": 808,
+      "bank": "death-b1880b2d4d0091288c00c0ef5a65d70c88772021d0aaad06b12678e555a18c50.npy",
+      "sha256": "b1880b2d4d0091288c00c0ef5a65d70c88772021d0aaad06b12678e555a18c50",
+      "original": "../e1m1_auto_death100/death_191039/episode.npz",
+      "dev_start": 388
+    },
+    {
+      "source": "death",
+      "id": "death_191040",
+      "frames": 627,
+      "bank": "death-8bcabad6205e30b0dec67a067ca599505a0cb8a5db9feac4f67bd2d868959f44.npy",
+      "sha256": "8bcabad6205e30b0dec67a067ca599505a0cb8a5db9feac4f67bd2d868959f44",
+      "original": "../e1m1_auto_death100/death_191040/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191041",
+      "frames": 646,
+      "bank": "death-85f1f2d4d77f46571712e447ca0788a9d2d3d8984b2b4ac9b2ca06d2725c7571.npy",
+      "sha256": "85f1f2d4d77f46571712e447ca0788a9d2d3d8984b2b4ac9b2ca06d2725c7571",
+      "original": "../e1m1_auto_death100/death_191041/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191042",
+      "frames": 570,
+      "bank": "death-55995169b06158b7baf8b76e25bf53feba9185e4bccba6d4768a6b235b22bb3c.npy",
+      "sha256": "55995169b06158b7baf8b76e25bf53feba9185e4bccba6d4768a6b235b22bb3c",
+      "original": "../e1m1_auto_death100/death_191042/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191043",
+      "frames": 485,
+      "bank": "death-c5d41703d0859c6d3ac355864f421dbde9d9cf9cabc586277e86510702ff705d.npy",
+      "sha256": "c5d41703d0859c6d3ac355864f421dbde9d9cf9cabc586277e86510702ff705d",
+      "original": "../e1m1_auto_death100/death_191043/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191044",
+      "frames": 471,
+      "bank": "death-52f171dc605cbe009b2f3779a8667ac31cd636773cba487fadd4d6dbfcd9aee7.npy",
+      "sha256": "52f171dc605cbe009b2f3779a8667ac31cd636773cba487fadd4d6dbfcd9aee7",
+      "original": "../e1m1_auto_death100/death_191044/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191045",
+      "frames": 580,
+      "bank": "death-f9442e3f54bfad2271ea3e5ea8133eb4a3240cbb4cc3b2be757034d355a93827.npy",
+      "sha256": "f9442e3f54bfad2271ea3e5ea8133eb4a3240cbb4cc3b2be757034d355a93827",
+      "original": "../e1m1_auto_death100/death_191045/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191046",
+      "frames": 512,
+      "bank": "death-10591164ffcdf77f7d25efca1ebc44058ddea5b7d0972ec39ba617afa218155d.npy",
+      "sha256": "10591164ffcdf77f7d25efca1ebc44058ddea5b7d0972ec39ba617afa218155d",
+      "original": "../e1m1_auto_death100/death_191046/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191047",
+      "frames": 800,
+      "bank": "death-26f5e46fad51797f5fbc707836fadaacdbfcd1da218a32966458718d6adfdfa8.npy",
+      "sha256": "26f5e46fad51797f5fbc707836fadaacdbfcd1da218a32966458718d6adfdfa8",
+      "original": "../e1m1_auto_death100/death_191047/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191048",
+      "frames": 633,
+      "bank": "death-f8080ebf14122071642cff60d10f958f62f4c23dbba42aa95b9177924e09ae0c.npy",
+      "sha256": "f8080ebf14122071642cff60d10f958f62f4c23dbba42aa95b9177924e09ae0c",
+      "original": "../e1m1_auto_death100/death_191048/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191049",
+      "frames": 788,
+      "bank": "death-06de859f4768964e6bd50a8a5e15c34b9230d32d3a2a3ed4c1edf9f2b79e1bf7.npy",
+      "sha256": "06de859f4768964e6bd50a8a5e15c34b9230d32d3a2a3ed4c1edf9f2b79e1bf7",
+      "original": "../e1m1_auto_death100/death_191049/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191050",
+      "frames": 542,
+      "bank": "death-ab720929baf4b1f52676fe90317823bd43b228acfb2b8f2787560e8c087ae191.npy",
+      "sha256": "ab720929baf4b1f52676fe90317823bd43b228acfb2b8f2787560e8c087ae191",
+      "original": "../e1m1_auto_death100/death_191050/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191053",
+      "frames": 617,
+      "bank": "death-89e1c612cc9ba7f1c4365bc4330b8cc3f098ea176aff5269e79940247ff4432d.npy",
+      "sha256": "89e1c612cc9ba7f1c4365bc4330b8cc3f098ea176aff5269e79940247ff4432d",
+      "original": "../e1m1_auto_death100/death_191053/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191054",
+      "frames": 612,
+      "bank": "death-73b1ffaeb580b8cf7286b44b3c4606575c322764d71304b8ec6d0dc4bec7e166.npy",
+      "sha256": "73b1ffaeb580b8cf7286b44b3c4606575c322764d71304b8ec6d0dc4bec7e166",
+      "original": "../e1m1_auto_death100/death_191054/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191055",
+      "frames": 640,
+      "bank": "death-8b3c44decd361232644d71f3ae4decb75386de58d0a362dc2d4280ee94d547db.npy",
+      "sha256": "8b3c44decd361232644d71f3ae4decb75386de58d0a362dc2d4280ee94d547db",
+      "original": "../e1m1_auto_death100/death_191055/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191056",
+      "frames": 698,
+      "bank": "death-85d288bda06ed4ae6ed20dad8dbe7e78892b099689fe4517b86ec97c8bc0eb8a.npy",
+      "sha256": "85d288bda06ed4ae6ed20dad8dbe7e78892b099689fe4517b86ec97c8bc0eb8a",
+      "original": "../e1m1_auto_death100/death_191056/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191057",
+      "frames": 507,
+      "bank": "death-c266226eb74969c466c8030ecc19d8054bcee4929ebc6213a528312fe1d5c951.npy",
+      "sha256": "c266226eb74969c466c8030ecc19d8054bcee4929ebc6213a528312fe1d5c951",
+      "original": "../e1m1_auto_death100/death_191057/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191058",
+      "frames": 680,
+      "bank": "death-79639692de159ca84122cb5bd8c141fdd3065364debcc1883d85bbcf689d31aa.npy",
+      "sha256": "79639692de159ca84122cb5bd8c141fdd3065364debcc1883d85bbcf689d31aa",
+      "original": "../e1m1_auto_death100/death_191058/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191059",
+      "frames": 632,
+      "bank": "death-7fac861ca112f0aa39de37e2d2465014acd4fde5512460f1f4627a5feb10240a.npy",
+      "sha256": "7fac861ca112f0aa39de37e2d2465014acd4fde5512460f1f4627a5feb10240a",
+      "original": "../e1m1_auto_death100/death_191059/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191060",
+      "frames": 575,
+      "bank": "death-d95db7326ad5286215fa116e55c60466283961e1cb1e09eff53ba61cc5dbab1e.npy",
+      "sha256": "d95db7326ad5286215fa116e55c60466283961e1cb1e09eff53ba61cc5dbab1e",
+      "original": "../e1m1_auto_death100/death_191060/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191061",
+      "frames": 532,
+      "bank": "death-22e6afa6a16c40f301d7445c385f08413141e65f808dbb8c65dce2cb61c5cdc2.npy",
+      "sha256": "22e6afa6a16c40f301d7445c385f08413141e65f808dbb8c65dce2cb61c5cdc2",
+      "original": "../e1m1_auto_death100/death_191061/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191062",
+      "frames": 565,
+      "bank": "death-f692775d92465cbc99e44b5a3bafbeb860f47dd28e8f11eed370d3734c76fcfe.npy",
+      "sha256": "f692775d92465cbc99e44b5a3bafbeb860f47dd28e8f11eed370d3734c76fcfe",
+      "original": "../e1m1_auto_death100/death_191062/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191063",
+      "frames": 580,
+      "bank": "death-d2d030444e296818842427bf9b087bd3b0a8b21938e5166b0479540df45e0291.npy",
+      "sha256": "d2d030444e296818842427bf9b087bd3b0a8b21938e5166b0479540df45e0291",
+      "original": "../e1m1_auto_death100/death_191063/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191064",
+      "frames": 462,
+      "bank": "death-bda1d35875dc8848173a9a07cdad337bc4c30298d569f65f5bd728606f275fc1.npy",
+      "sha256": "bda1d35875dc8848173a9a07cdad337bc4c30298d569f65f5bd728606f275fc1",
+      "original": "../e1m1_auto_death100/death_191064/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191065",
+      "frames": 600,
+      "bank": "death-aa7b0b7b4b4cc77241219cc2ff39569e429664ed992b8bc29915bffaee815249.npy",
+      "sha256": "aa7b0b7b4b4cc77241219cc2ff39569e429664ed992b8bc29915bffaee815249",
+      "original": "../e1m1_auto_death100/death_191065/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191066",
+      "frames": 585,
+      "bank": "death-7b79e540197ceab62c23c09a873e7f943f4262595c731104d18a9383fcb7fc3f.npy",
+      "sha256": "7b79e540197ceab62c23c09a873e7f943f4262595c731104d18a9383fcb7fc3f",
+      "original": "../e1m1_auto_death100/death_191066/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191067",
+      "frames": 600,
+      "bank": "death-06c89439f44975ba5441c78734c7abbcd73ee2b935f676a870bedff56f836eb6.npy",
+      "sha256": "06c89439f44975ba5441c78734c7abbcd73ee2b935f676a870bedff56f836eb6",
+      "original": "../e1m1_auto_death100/death_191067/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191069",
+      "frames": 489,
+      "bank": "death-803bda889d5b1f92a05a973686323233a128c10bb8e947c88565374ace9f71ca.npy",
+      "sha256": "803bda889d5b1f92a05a973686323233a128c10bb8e947c88565374ace9f71ca",
+      "original": "../e1m1_auto_death100/death_191069/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191070",
+      "frames": 536,
+      "bank": "death-220676a4a9522ac027b543af1a09ee26164b0f00a33873d7f41191bbaf0f1b72.npy",
+      "sha256": "220676a4a9522ac027b543af1a09ee26164b0f00a33873d7f41191bbaf0f1b72",
+      "original": "../e1m1_auto_death100/death_191070/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191071",
+      "frames": 511,
+      "bank": "death-b38246f1b198f5da33bbb5f90f94bfd55fac01000f6b428365d552ee0033afd5.npy",
+      "sha256": "b38246f1b198f5da33bbb5f90f94bfd55fac01000f6b428365d552ee0033afd5",
+      "original": "../e1m1_auto_death100/death_191071/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191072",
+      "frames": 594,
+      "bank": "death-291afdae608a3ab4528a92db465f6dd3bb39dd7439781b1207eef1f51db858ca.npy",
+      "sha256": "291afdae608a3ab4528a92db465f6dd3bb39dd7439781b1207eef1f51db858ca",
+      "original": "../e1m1_auto_death100/death_191072/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191073",
+      "frames": 563,
+      "bank": "death-4c94d3a6fbd20ea6239397c61f883c7e800a169b51c4a7bc2dd35e0138162164.npy",
+      "sha256": "4c94d3a6fbd20ea6239397c61f883c7e800a169b51c4a7bc2dd35e0138162164",
+      "original": "../e1m1_auto_death100/death_191073/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191074",
+      "frames": 549,
+      "bank": "death-832cd7f64488a7d80cf9c968db52114c4a720efe5776b43c8182bcacec580f04.npy",
+      "sha256": "832cd7f64488a7d80cf9c968db52114c4a720efe5776b43c8182bcacec580f04",
+      "original": "../e1m1_auto_death100/death_191074/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191075",
+      "frames": 950,
+      "bank": "death-dbce03633f032648206b6e201baf25837a48b0d49788fbc5521ba8490e877dc4.npy",
+      "sha256": "dbce03633f032648206b6e201baf25837a48b0d49788fbc5521ba8490e877dc4",
+      "original": "../e1m1_auto_death100/death_191075/episode.npz",
+      "dev_start": 528
+    },
+    {
+      "source": "death",
+      "id": "death_191076",
+      "frames": 433,
+      "bank": "death-45e9abb62439f04f36774fc72321d10aa3cd249b38ecd4cee050a554ea8f9acd.npy",
+      "sha256": "45e9abb62439f04f36774fc72321d10aa3cd249b38ecd4cee050a554ea8f9acd",
+      "original": "../e1m1_auto_death100/death_191076/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191077",
+      "frames": 698,
+      "bank": "death-658e3cddf3c77a0f0f303aa81641683790f97777386625fc7d42ccf7ac06cee9.npy",
+      "sha256": "658e3cddf3c77a0f0f303aa81641683790f97777386625fc7d42ccf7ac06cee9",
+      "original": "../e1m1_auto_death100/death_191077/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191078",
+      "frames": 783,
+      "bank": "death-fc1f6387e61e366d2979ad296558b69908b940c5877bc88d20d6df1dfa0d0b2d.npy",
+      "sha256": "fc1f6387e61e366d2979ad296558b69908b940c5877bc88d20d6df1dfa0d0b2d",
+      "original": "../e1m1_auto_death100/death_191078/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191079",
+      "frames": 706,
+      "bank": "death-5621ec1a4b62f15f0863586b6468afc4fc2a86d53ed98eb61619ead2d22ace40.npy",
+      "sha256": "5621ec1a4b62f15f0863586b6468afc4fc2a86d53ed98eb61619ead2d22ace40",
+      "original": "../e1m1_auto_death100/death_191079/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191081",
+      "frames": 634,
+      "bank": "death-ae30539aa26d746cbcf4778542cb7afa31f3743d346a3f14df82c92b98bbdabe.npy",
+      "sha256": "ae30539aa26d746cbcf4778542cb7afa31f3743d346a3f14df82c92b98bbdabe",
+      "original": "../e1m1_auto_death100/death_191081/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191082",
+      "frames": 533,
+      "bank": "death-5bba768b2cfcb75e6544eb08e4f85d6af49038807c95a96517b2ec90a2a854e2.npy",
+      "sha256": "5bba768b2cfcb75e6544eb08e4f85d6af49038807c95a96517b2ec90a2a854e2",
+      "original": "../e1m1_auto_death100/death_191082/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191083",
+      "frames": 524,
+      "bank": "death-658e98718563cf3cefd51fbbf96b10314b0f5086618c9e0a73820a3ebba611e2.npy",
+      "sha256": "658e98718563cf3cefd51fbbf96b10314b0f5086618c9e0a73820a3ebba611e2",
+      "original": "../e1m1_auto_death100/death_191083/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191084",
+      "frames": 610,
+      "bank": "death-9afb60248e86575e106b13d44bbc2e8bd663d77ad474cfc7d023356a207fa372.npy",
+      "sha256": "9afb60248e86575e106b13d44bbc2e8bd663d77ad474cfc7d023356a207fa372",
+      "original": "../e1m1_auto_death100/death_191084/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191085",
+      "frames": 701,
+      "bank": "death-a78199b8fab1254fdd741398dcf4ce668b70e61ab7a5164f12633d4da93ba634.npy",
+      "sha256": "a78199b8fab1254fdd741398dcf4ce668b70e61ab7a5164f12633d4da93ba634",
+      "original": "../e1m1_auto_death100/death_191085/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191086",
+      "frames": 863,
+      "bank": "death-96eb279b921168a35c4e05d48c61f9dca026d7d682f27d5d266b2ce2003e5851.npy",
+      "sha256": "96eb279b921168a35c4e05d48c61f9dca026d7d682f27d5d266b2ce2003e5851",
+      "original": "../e1m1_auto_death100/death_191086/episode.npz",
+      "dev_start": 440
+    },
+    {
+      "source": "death",
+      "id": "death_191087",
+      "frames": 895,
+      "bank": "death-7ba59a99629231bdaa8e56c3ccbe858ab32c38379434452e558aa7fa40910083.npy",
+      "sha256": "7ba59a99629231bdaa8e56c3ccbe858ab32c38379434452e558aa7fa40910083",
+      "original": "../e1m1_auto_death100/death_191087/episode.npz",
+      "dev_start": 472
+    },
+    {
+      "source": "death",
+      "id": "death_191088",
+      "frames": 728,
+      "bank": "death-0fef680a1439206a735b0de41a641e6dc754ddae5704da3ebeb2f06d37887c17.npy",
+      "sha256": "0fef680a1439206a735b0de41a641e6dc754ddae5704da3ebeb2f06d37887c17",
+      "original": "../e1m1_auto_death100/death_191088/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191089",
+      "frames": 579,
+      "bank": "death-ec0628aab1c534359012f11450be785fc17c7140ab4813617ee2792a1269d102.npy",
+      "sha256": "ec0628aab1c534359012f11450be785fc17c7140ab4813617ee2792a1269d102",
+      "original": "../e1m1_auto_death100/death_191089/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191090",
+      "frames": 675,
+      "bank": "death-d339710c3c9399d652425de30253b32fa8c942509c27d56de767accff223d8f0.npy",
+      "sha256": "d339710c3c9399d652425de30253b32fa8c942509c27d56de767accff223d8f0",
+      "original": "../e1m1_auto_death100/death_191090/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191091",
+      "frames": 818,
+      "bank": "death-685ce736c0752f57d3ea7b29880efde66bc4e28ff36f5400f370825847fa149a.npy",
+      "sha256": "685ce736c0752f57d3ea7b29880efde66bc4e28ff36f5400f370825847fa149a",
+      "original": "../e1m1_auto_death100/death_191091/episode.npz",
+      "dev_start": 396
+    },
+    {
+      "source": "death",
+      "id": "death_191092",
+      "frames": 645,
+      "bank": "death-f7d53a9b8d039cccdb6ca3e44486a04c2ca8d2aad43a6a328838de86b39e8bbc.npy",
+      "sha256": "f7d53a9b8d039cccdb6ca3e44486a04c2ca8d2aad43a6a328838de86b39e8bbc",
+      "original": "../e1m1_auto_death100/death_191092/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191093",
+      "frames": 507,
+      "bank": "death-88f5abe54848f36c8492b66f27668d1101bf89ef93059388268440ed6f1133f1.npy",
+      "sha256": "88f5abe54848f36c8492b66f27668d1101bf89ef93059388268440ed6f1133f1",
+      "original": "../e1m1_auto_death100/death_191093/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191094",
+      "frames": 457,
+      "bank": "death-21d900798bed6ff46fa3b7da1c0065fc74ccaf02b7c64442bab8c1c8624d1ca2.npy",
+      "sha256": "21d900798bed6ff46fa3b7da1c0065fc74ccaf02b7c64442bab8c1c8624d1ca2",
+      "original": "../e1m1_auto_death100/death_191094/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191095",
+      "frames": 580,
+      "bank": "death-2149c10f21afec0ae3f45a492ed326b9485c99969a6146a1b5aee2a8810d73f9.npy",
+      "sha256": "2149c10f21afec0ae3f45a492ed326b9485c99969a6146a1b5aee2a8810d73f9",
+      "original": "../e1m1_auto_death100/death_191095/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191096",
+      "frames": 793,
+      "bank": "death-1f112ee79bf8c5ce0e11399fcd09ed910cf1c56e18430fcf1ec3f7caabe8c506.npy",
+      "sha256": "1f112ee79bf8c5ce0e11399fcd09ed910cf1c56e18430fcf1ec3f7caabe8c506",
+      "original": "../e1m1_auto_death100/death_191096/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191097",
+      "frames": 666,
+      "bank": "death-b9f9749836ab6fbb795dc7de0eccb6580c85a64515c7cdcabcfcae0e0a121bfb.npy",
+      "sha256": "b9f9749836ab6fbb795dc7de0eccb6580c85a64515c7cdcabcfcae0e0a121bfb",
+      "original": "../e1m1_auto_death100/death_191097/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191098",
+      "frames": 617,
+      "bank": "death-d20666f1c1ddd13d9a43a1f20e910c7d45d87bc51d64c308027a192bf6942e05.npy",
+      "sha256": "d20666f1c1ddd13d9a43a1f20e910c7d45d87bc51d64c308027a192bf6942e05",
+      "original": "../e1m1_auto_death100/death_191098/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191099",
+      "frames": 590,
+      "bank": "death-f568b6a6784b8e58010f6ecf0a055b8023a6f1a9f4a87369d556889a66cb6559.npy",
+      "sha256": "f568b6a6784b8e58010f6ecf0a055b8023a6f1a9f4a87369d556889a66cb6559",
+      "original": "../e1m1_auto_death100/death_191099/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191100",
+      "frames": 560,
+      "bank": "death-34914d216b28409ecd69325249622a205b4622786575f7a4443b2a31609c683d.npy",
+      "sha256": "34914d216b28409ecd69325249622a205b4622786575f7a4443b2a31609c683d",
+      "original": "../e1m1_auto_death100/death_191100/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191102",
+      "frames": 528,
+      "bank": "death-af519d0c34493cfff65c4777c14054fcb28722ddf148f10316a6b172c7dd1cf5.npy",
+      "sha256": "af519d0c34493cfff65c4777c14054fcb28722ddf148f10316a6b172c7dd1cf5",
+      "original": "../e1m1_auto_death100/death_191102/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191103",
+      "frames": 750,
+      "bank": "death-2ddf5142dfb91fc583a78ccb5f40a9fba9389d3b33ff9428fdb688deb89b302a.npy",
+      "sha256": "2ddf5142dfb91fc583a78ccb5f40a9fba9389d3b33ff9428fdb688deb89b302a",
+      "original": "../e1m1_auto_death100/death_191103/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191104",
+      "frames": 661,
+      "bank": "death-c679f6cba25eaf6cddb75be21320a74db424f31853fa4a8835400da59363e6a6.npy",
+      "sha256": "c679f6cba25eaf6cddb75be21320a74db424f31853fa4a8835400da59363e6a6",
+      "original": "../e1m1_auto_death100/death_191104/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191105",
+      "frames": 460,
+      "bank": "death-ef313cf57663882bd614e2331d77aad99455cfd26cab0bbfebf569e98b117d8f.npy",
+      "sha256": "ef313cf57663882bd614e2331d77aad99455cfd26cab0bbfebf569e98b117d8f",
+      "original": "../e1m1_auto_death100/death_191105/episode.npz"
+    },
+    {
+      "source": "death",
+      "id": "death_191106",
+      "frames": 502,
+      "bank": "death-ab0f562cd68b1c7aefecba0c1a90aaa61d1a6634d814534f8201a6a8d83ceda6.npy",
+      "sha256": "ab0f562cd68b1c7aefecba0c1a90aaa61d1a6634d814534f8201a6a8d83ceda6",
+      "original": "../e1m1_auto_death100/death_191106/episode.npz"
+    },
+    {
+      "source": "human",
+      "id": "dsda-95301",
+      "frames": 869,
+      "bank": "human-617d3498045e760fc5e9c0df5b35a0cfba52a3edca2e8d1903166cfa3090be87.npy",
+      "sha256": "617d3498045e760fc5e9c0df5b35a0cfba52a3edca2e8d1903166cfa3090be87",
+      "original": "../dsda-doom-e1m1-uvmax/videos/95301.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-93469",
+      "frames": 905,
+      "bank": "human-dc5c94856b97e9345f6ffd02d14de91e9b918d65fddf3445c04312a2a49af4e1.npy",
+      "sha256": "dc5c94856b97e9345f6ffd02d14de91e9b918d65fddf3445c04312a2a49af4e1",
+      "original": "../dsda-doom-e1m1-uvmax/videos/93469.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-56754",
+      "frames": 916,
+      "bank": "human-1f3bad48e73f1bc15208da457acb85c3a2e2fa7439a187763383a427979265e2.npy",
+      "sha256": "1f3bad48e73f1bc15208da457acb85c3a2e2fa7439a187763383a427979265e2",
+      "original": "../dsda-doom-e1m1-uvmax/videos/56754.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-56512",
+      "frames": 956,
+      "bank": "human-e06e4b945d0dd48b5de784c30a1df143db9dcb90efe4365ff4d03db13077fa0c.npy",
+      "sha256": "e06e4b945d0dd48b5de784c30a1df143db9dcb90efe4365ff4d03db13077fa0c",
+      "original": "../dsda-doom-e1m1-uvmax/videos/56512.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-56459",
+      "frames": 968,
+      "bank": "human-f27ff7a0f345502161609435e33695d177da7f9835a861e99df2a10bdcc7be50.npy",
+      "sha256": "f27ff7a0f345502161609435e33695d177da7f9835a861e99df2a10bdcc7be50",
+      "original": "../dsda-doom-e1m1-uvmax/videos/56459.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-56453",
+      "frames": 978,
+      "bank": "human-ff10fa5eea6fc80c94e761f86c6a561c86de20a794a7d942aba49ff86f95740f.npy",
+      "sha256": "ff10fa5eea6fc80c94e761f86c6a561c86de20a794a7d942aba49ff86f95740f",
+      "original": "../dsda-doom-e1m1-uvmax/videos/56453.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29503",
+      "frames": 996,
+      "bank": "human-05eb42f830b266c2379b3b191f1e15ae13b05371e17510fad72f171c3a76e45e.npy",
+      "sha256": "05eb42f830b266c2379b3b191f1e15ae13b05371e17510fad72f171c3a76e45e",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29503.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-56451",
+      "frames": 1000,
+      "bank": "human-88f3df434f50ff3e99006ed026c28aa3162116e0c522aaf955e87be2de2fb461.npy",
+      "sha256": "88f3df434f50ff3e99006ed026c28aa3162116e0c522aaf955e87be2de2fb461",
+      "original": "../dsda-doom-e1m1-uvmax/videos/56451.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-56454",
+      "frames": 1004,
+      "bank": "human-5fa55a9ef498932b6156e4df812a5c6035f6fdee1cc513044ccd154fb0d5d669.npy",
+      "sha256": "5fa55a9ef498932b6156e4df812a5c6035f6fdee1cc513044ccd154fb0d5d669",
+      "original": "../dsda-doom-e1m1-uvmax/videos/56454.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-63122",
+      "frames": 1029,
+      "bank": "human-7351ef87073c2cfa58d9a4d952bd993aecd4b1ace704d434135c47c6f553de09.npy",
+      "sha256": "7351ef87073c2cfa58d9a4d952bd993aecd4b1ace704d434135c47c6f553de09",
+      "original": "../dsda-doom-e1m1-uvmax/videos/63122.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29504",
+      "frames": 1044,
+      "bank": "human-4269d3456f40a1562705d181d06c46bee84696799b8a63a925b997c377cd1890.npy",
+      "sha256": "4269d3456f40a1562705d181d06c46bee84696799b8a63a925b997c377cd1890",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29504.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-56715",
+      "frames": 1055,
+      "bank": "human-73c1db0cae1f180ff2e2f97cda579c41afc911c77834dfab8cad6fda5a515e3f.npy",
+      "sha256": "73c1db0cae1f180ff2e2f97cda579c41afc911c77834dfab8cad6fda5a515e3f",
+      "original": "../dsda-doom-e1m1-uvmax/videos/56715.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-70957",
+      "frames": 1073,
+      "bank": "human-3af2a0f9454740f5181aa3d16c7f4620570aa9d7fd74e58bacbc453d568466df.npy",
+      "sha256": "3af2a0f9454740f5181aa3d16c7f4620570aa9d7fd74e58bacbc453d568466df",
+      "original": "../dsda-doom-e1m1-uvmax/videos/70957.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29505",
+      "frames": 1081,
+      "bank": "human-4ef862378936248314ca2d87ba494c6a15a39b21bb323fa1cc254b6e7134c696.npy",
+      "sha256": "4ef862378936248314ca2d87ba494c6a15a39b21bb323fa1cc254b6e7134c696",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29505.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29506",
+      "frames": 1099,
+      "bank": "human-9e6d31c5574ca7311c4a6da0fc7ef367a6e67c55b1532adac90c3c91e0bbf70b.npy",
+      "sha256": "9e6d31c5574ca7311c4a6da0fc7ef367a6e67c55b1532adac90c3c91e0bbf70b",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29506.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-56158",
+      "frames": 1124,
+      "bank": "human-eefa394a83e4360fb92badcbd59a49a69765661aafb311a396f8fe48499076dd.npy",
+      "sha256": "eefa394a83e4360fb92badcbd59a49a69765661aafb311a396f8fe48499076dd",
+      "original": "../dsda-doom-e1m1-uvmax/videos/56158.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-61704",
+      "frames": 1134,
+      "bank": "human-628632b90d5a62b52732c90289e2385a9991e000a08b202e17c32e7372b78e5a.npy",
+      "sha256": "628632b90d5a62b52732c90289e2385a9991e000a08b202e17c32e7372b78e5a",
+      "original": "../dsda-doom-e1m1-uvmax/videos/61704.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29507",
+      "frames": 1137,
+      "bank": "human-92bc81a789df024f3af6f7548ef9c50b0ba3dc0015ecec2af2ffa4d037faeec1.npy",
+      "sha256": "92bc81a789df024f3af6f7548ef9c50b0ba3dc0015ecec2af2ffa4d037faeec1",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29507.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-58611",
+      "frames": 1147,
+      "bank": "human-b20ae9a080af283e0bc1551604b2954218124c542c91700588cfdf93f37ed730.npy",
+      "sha256": "b20ae9a080af283e0bc1551604b2954218124c542c91700588cfdf93f37ed730",
+      "original": "../dsda-doom-e1m1-uvmax/videos/58611.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-117636",
+      "frames": 1177,
+      "bank": "human-5d128416e2ccf55b8742d652eb21a147a169754746283979c050807f8f53542c.npy",
+      "sha256": "5d128416e2ccf55b8742d652eb21a147a169754746283979c050807f8f53542c",
+      "original": "../dsda-doom-e1m1-uvmax/videos/117636.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-56756",
+      "frames": 1182,
+      "bank": "human-9a3f78b5cf0b85b5420c27bd151494a1b5d2b4a21690872f9d5d9ae6edb14122.npy",
+      "sha256": "9a3f78b5cf0b85b5420c27bd151494a1b5d2b4a21690872f9d5d9ae6edb14122",
+      "original": "../dsda-doom-e1m1-uvmax/videos/56756.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-56452",
+      "frames": 1185,
+      "bank": "human-36b1d72589c205998cc8ebfa3a69192b5b31e0476d345dee3ea48fb866edbedc.npy",
+      "sha256": "36b1d72589c205998cc8ebfa3a69192b5b31e0476d345dee3ea48fb866edbedc",
+      "original": "../dsda-doom-e1m1-uvmax/videos/56452.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-77092",
+      "frames": 1195,
+      "bank": "human-c83e5c37d77ae16d727d188f8a362ec5f2a42db828bb600282d126d6a10252f8.npy",
+      "sha256": "c83e5c37d77ae16d727d188f8a362ec5f2a42db828bb600282d126d6a10252f8",
+      "original": "../dsda-doom-e1m1-uvmax/videos/77092.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-97737",
+      "frames": 1198,
+      "bank": "human-6bf5124325400aaf0697cf366aa45d8ccfc4cbefd678638d55d728c1958cf5c0.npy",
+      "sha256": "6bf5124325400aaf0697cf366aa45d8ccfc4cbefd678638d55d728c1958cf5c0",
+      "original": "../dsda-doom-e1m1-uvmax/videos/97737.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-63139",
+      "frames": 1214,
+      "bank": "human-e1ba980deac73854a1162452a46528a903a466ede41724cbce49abd9bcb6c972.npy",
+      "sha256": "e1ba980deac73854a1162452a46528a903a466ede41724cbce49abd9bcb6c972",
+      "original": "../dsda-doom-e1m1-uvmax/videos/63139.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29509",
+      "frames": 1217,
+      "bank": "human-ad8a31dbbb3a9c0ecd8d6f988f53435ce8593dbc6434a4c60c921ded0801d534.npy",
+      "sha256": "ad8a31dbbb3a9c0ecd8d6f988f53435ce8593dbc6434a4c60c921ded0801d534",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29509.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-56755",
+      "frames": 1220,
+      "bank": "human-3c1b2e1ccc44e599914bbab3a32b7e1c53e38209a1301fbf7086238bcc591e96.npy",
+      "sha256": "3c1b2e1ccc44e599914bbab3a32b7e1c53e38209a1301fbf7086238bcc591e96",
+      "original": "../dsda-doom-e1m1-uvmax/videos/56755.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-76881",
+      "frames": 1233,
+      "bank": "human-f381189edf9a8c6ec1f062aef42060c6d1af9f8ea8031a90d992aac6bc3fc507.npy",
+      "sha256": "f381189edf9a8c6ec1f062aef42060c6d1af9f8ea8031a90d992aac6bc3fc507",
+      "original": "../dsda-doom-e1m1-uvmax/videos/76881.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29511",
+      "frames": 1249,
+      "bank": "human-691f549e895851ec65d6841a218251d4f66445d69d4673a9f027c6947edad430.npy",
+      "sha256": "691f549e895851ec65d6841a218251d4f66445d69d4673a9f027c6947edad430",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29511.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-56510",
+      "frames": 1254,
+      "bank": "human-1fc1492289b3a5f9f67994d346ae35e8a2e8b4e3ef6b0edd47933640e24e178d.npy",
+      "sha256": "1fc1492289b3a5f9f67994d346ae35e8a2e8b4e3ef6b0edd47933640e24e178d",
+      "original": "../dsda-doom-e1m1-uvmax/videos/56510.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29512",
+      "frames": 1268,
+      "bank": "human-3c10be7db5a46396323cd5efbf1ac8877f371eabaee6d96617f49c977311d7f4.npy",
+      "sha256": "3c10be7db5a46396323cd5efbf1ac8877f371eabaee6d96617f49c977311d7f4",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29512.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-80010",
+      "frames": 1270,
+      "bank": "human-6c94e3a1054b251a3619f445d0e9b85f284befc76c7caf69beca7481fb317737.npy",
+      "sha256": "6c94e3a1054b251a3619f445d0e9b85f284befc76c7caf69beca7481fb317737",
+      "original": "../dsda-doom-e1m1-uvmax/videos/80010.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29513",
+      "frames": 1289,
+      "bank": "human-f1e8987f63cc4c265a204bec5a9e433bce5860ac446cb6aea09777a34c910ed3.npy",
+      "sha256": "f1e8987f63cc4c265a204bec5a9e433bce5860ac446cb6aea09777a34c910ed3",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29513.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29516",
+      "frames": 1306,
+      "bank": "human-5467e03a696405a7e1ce187d2a30c0cbf591e2d9021d435d86136186eabaf88c.npy",
+      "sha256": "5467e03a696405a7e1ce187d2a30c0cbf591e2d9021d435d86136186eabaf88c",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29516.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-114440",
+      "frames": 1318,
+      "bank": "human-9e90d28afdae4e7b0c551698635bcd7ed5e084886971355bba4b273a46399ec0.npy",
+      "sha256": "9e90d28afdae4e7b0c551698635bcd7ed5e084886971355bba4b273a46399ec0",
+      "original": "../dsda-doom-e1m1-uvmax/videos/114440.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29515",
+      "frames": 1321,
+      "bank": "human-bf8735998644a644c00e87ad8e67f3acf2548b65082fdff9e3cbb1d008f7f101.npy",
+      "sha256": "bf8735998644a644c00e87ad8e67f3acf2548b65082fdff9e3cbb1d008f7f101",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29515.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29519",
+      "frames": 1357,
+      "bank": "human-bc033052c1cd7e39261e969d8c34497814986bed6a9cf23093f7f6d1776b2683.npy",
+      "sha256": "bc033052c1cd7e39261e969d8c34497814986bed6a9cf23093f7f6d1776b2683",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29519.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-111185",
+      "frames": 1359,
+      "bank": "human-e1e46e5292695f3778bad1ebdf8a281bc7d8f8b7ae67f5e81c347bc5cb0f5cc2.npy",
+      "sha256": "e1e46e5292695f3778bad1ebdf8a281bc7d8f8b7ae67f5e81c347bc5cb0f5cc2",
+      "original": "../dsda-doom-e1m1-uvmax/videos/111185.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-58679",
+      "frames": 1360,
+      "bank": "human-680648a39e32b357edd759baa55c69f5e378e382909cf8392bab0b652076d7dc.npy",
+      "sha256": "680648a39e32b357edd759baa55c69f5e378e382909cf8392bab0b652076d7dc",
+      "original": "../dsda-doom-e1m1-uvmax/videos/58679.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-85408",
+      "frames": 1365,
+      "bank": "human-58a9dce9c44051c68a2dd42f99c4adf0ca0944e80759e9d0ab2e23672aefcde4.npy",
+      "sha256": "58a9dce9c44051c68a2dd42f99c4adf0ca0944e80759e9d0ab2e23672aefcde4",
+      "original": "../dsda-doom-e1m1-uvmax/videos/85408.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29520",
+      "frames": 1372,
+      "bank": "human-8af430484b8a24d307ffed035a18aa36fbee8977b4349d18d8c4f60a6323a7bc.npy",
+      "sha256": "8af430484b8a24d307ffed035a18aa36fbee8977b4349d18d8c4f60a6323a7bc",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29520.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-71044",
+      "frames": 1388,
+      "bank": "human-75e63af659c4a4730c8e12effcee3d0204958e88fc164fccbfa9bdf66536100b.npy",
+      "sha256": "75e63af659c4a4730c8e12effcee3d0204958e88fc164fccbfa9bdf66536100b",
+      "original": "../dsda-doom-e1m1-uvmax/videos/71044.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29521",
+      "frames": 1393,
+      "bank": "human-0b0939544f91dee16b4d4d9de1e300bdfa9dcc3ad385010b031d238d30946294.npy",
+      "sha256": "0b0939544f91dee16b4d4d9de1e300bdfa9dcc3ad385010b031d238d30946294",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29521.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29522",
+      "frames": 1402,
+      "bank": "human-da0bc1a5fc31271958c07a104465d12b84e4e768292a7c0ce37d431d7f63db3c.npy",
+      "sha256": "da0bc1a5fc31271958c07a104465d12b84e4e768292a7c0ce37d431d7f63db3c",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29522.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-54157",
+      "frames": 1406,
+      "bank": "human-f6b81003ea70bdd95b55655855dd240a7ff1843abacf38033186563f26312519.npy",
+      "sha256": "f6b81003ea70bdd95b55655855dd240a7ff1843abacf38033186563f26312519",
+      "original": "../dsda-doom-e1m1-uvmax/videos/54157.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-112472",
+      "frames": 1432,
+      "bank": "human-e18c24c8fe09c64776efaa519e55c5f18e1fb950b8812d26b858224c640879ca.npy",
+      "sha256": "e18c24c8fe09c64776efaa519e55c5f18e1fb950b8812d26b858224c640879ca",
+      "original": "../dsda-doom-e1m1-uvmax/videos/112472.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29525",
+      "frames": 1450,
+      "bank": "human-a149c2f3dcd0ea263c89970aedeefaade238b11596a2d413fbaa3fbdb69a41c0.npy",
+      "sha256": "a149c2f3dcd0ea263c89970aedeefaade238b11596a2d413fbaa3fbdb69a41c0",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29525.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-58412",
+      "frames": 1461,
+      "bank": "human-a1e59b50b1118a797141b8e4db3e21c29a2fb62d6a7f914428af47f222b745be.npy",
+      "sha256": "a1e59b50b1118a797141b8e4db3e21c29a2fb62d6a7f914428af47f222b745be",
+      "original": "../dsda-doom-e1m1-uvmax/videos/58412.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29524",
+      "frames": 1468,
+      "bank": "human-dabe083595e39c28b189068516250d88fb3136569a2953679792a488601b55a9.npy",
+      "sha256": "dabe083595e39c28b189068516250d88fb3136569a2953679792a488601b55a9",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29524.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29526",
+      "frames": 1482,
+      "bank": "human-88ab477e14e6bbd6e5e808c28e15027e9a2211e131ab456028e08523a7860f89.npy",
+      "sha256": "88ab477e14e6bbd6e5e808c28e15027e9a2211e131ab456028e08523a7860f89",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29526.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-85407",
+      "frames": 1494,
+      "bank": "human-558743b8377b6f93f2ba2bc02eac09508dd321c1682cdbce79d745d3a9df9e9e.npy",
+      "sha256": "558743b8377b6f93f2ba2bc02eac09508dd321c1682cdbce79d745d3a9df9e9e",
+      "original": "../dsda-doom-e1m1-uvmax/videos/85407.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29527",
+      "frames": 1527,
+      "bank": "human-d38a5bfd436b5e2a683ec2ec7e670c9593213f96a5c9b505efdcd47e6ef1cbe5.npy",
+      "sha256": "d38a5bfd436b5e2a683ec2ec7e670c9593213f96a5c9b505efdcd47e6ef1cbe5",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29527.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29529",
+      "frames": 1533,
+      "bank": "human-6e16a98889d5f5777008711fff38d89cf4513d06eec23551feec504d72b5df9f.npy",
+      "sha256": "6e16a98889d5f5777008711fff38d89cf4513d06eec23551feec504d72b5df9f",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29529.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-85213",
+      "frames": 1556,
+      "bank": "human-8e0cea6924e336980d9782213fb524fbeca52fc8479003bf8522c654e4565807.npy",
+      "sha256": "8e0cea6924e336980d9782213fb524fbeca52fc8479003bf8522c654e4565807",
+      "original": "../dsda-doom-e1m1-uvmax/videos/85213.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-63858",
+      "frames": 1566,
+      "bank": "human-8c0adaaca810af5d406a2654b4614a98b05912c63fbaaff79adf1979c63faad9.npy",
+      "sha256": "8c0adaaca810af5d406a2654b4614a98b05912c63fbaaff79adf1979c63faad9",
+      "original": "../dsda-doom-e1m1-uvmax/videos/63858.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-56505",
+      "frames": 1590,
+      "bank": "human-0f93c77b7daa44f438de43befc8b66d895df66f487f2c3cf4a8be8070e412c95.npy",
+      "sha256": "0f93c77b7daa44f438de43befc8b66d895df66f487f2c3cf4a8be8070e412c95",
+      "original": "../dsda-doom-e1m1-uvmax/videos/56505.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-76092",
+      "frames": 1590,
+      "bank": "human-0f20eb5796c5eb7706c1e0e75b605ae0857534cfa47f97b2af28f5e1bee8dbdc.npy",
+      "sha256": "0f20eb5796c5eb7706c1e0e75b605ae0857534cfa47f97b2af28f5e1bee8dbdc",
+      "original": "../dsda-doom-e1m1-uvmax/videos/76092.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29530",
+      "frames": 1608,
+      "bank": "human-fe7395427be92b7ef4eea2981da1af80c680c7173a0ffc8e4a4b2514c39b0cc2.npy",
+      "sha256": "fe7395427be92b7ef4eea2981da1af80c680c7173a0ffc8e4a4b2514c39b0cc2",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29530.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-124114",
+      "frames": 1647,
+      "bank": "human-b7cd4d6aa38f04379c52df9fff39c5d1a5900cbd377f1262600d663109ec0d3c.npy",
+      "sha256": "b7cd4d6aa38f04379c52df9fff39c5d1a5900cbd377f1262600d663109ec0d3c",
+      "original": "../dsda-doom-e1m1-uvmax/videos/124114.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29533",
+      "frames": 1677,
+      "bank": "human-8818a9362bee349e8c2b71673198f8a4a5e72498b4194e5eb3aa62bb5262ab41.npy",
+      "sha256": "8818a9362bee349e8c2b71673198f8a4a5e72498b4194e5eb3aa62bb5262ab41",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29533.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29534",
+      "frames": 1743,
+      "bank": "human-1b6f72ceb98b03262e0f1eabb4abe748858a0f31c6d6de6daa1397903111e605.npy",
+      "sha256": "1b6f72ceb98b03262e0f1eabb4abe748858a0f31c6d6de6daa1397903111e605",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29534.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29535",
+      "frames": 1745,
+      "bank": "human-ccc989233738ae9a5754e0d2ef7ca00923b11e9da8268a61ca9f2fedf36a28c1.npy",
+      "sha256": "ccc989233738ae9a5754e0d2ef7ca00923b11e9da8268a61ca9f2fedf36a28c1",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29535.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-103100",
+      "frames": 1749,
+      "bank": "human-b2089468d85e730bcad4a5b7cca06b0085de32ed866797bd7619a9f5f34b2e38.npy",
+      "sha256": "b2089468d85e730bcad4a5b7cca06b0085de32ed866797bd7619a9f5f34b2e38",
+      "original": "../dsda-doom-e1m1-uvmax/videos/103100.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29536",
+      "frames": 1772,
+      "bank": "human-921ba70ba287a521a8d254be5bf8418b760983e3f910dfab2c3fb0b015d1312a.npy",
+      "sha256": "921ba70ba287a521a8d254be5bf8418b760983e3f910dfab2c3fb0b015d1312a",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29536.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-60396",
+      "frames": 1859,
+      "bank": "human-1de8799c15edc1ac092356efaf84dab99419608cf6e18dff17a246a85cc5754f.npy",
+      "sha256": "1de8799c15edc1ac092356efaf84dab99419608cf6e18dff17a246a85cc5754f",
+      "original": "../dsda-doom-e1m1-uvmax/videos/60396.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-94069",
+      "frames": 1872,
+      "bank": "human-30dace1a8c972486e839269963e6ed853f9d25bc7080368c0b53a4e21413d510.npy",
+      "sha256": "30dace1a8c972486e839269963e6ed853f9d25bc7080368c0b53a4e21413d510",
+      "original": "../dsda-doom-e1m1-uvmax/videos/94069.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29538",
+      "frames": 1878,
+      "bank": "human-96673272ab8c1855f78c29d0fa65c7bf084303e1ea7b050e5f962a7011a0a950.npy",
+      "sha256": "96673272ab8c1855f78c29d0fa65c7bf084303e1ea7b050e5f962a7011a0a950",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29538.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-60210",
+      "frames": 1889,
+      "bank": "human-5de9be7e751f58905a1286891ed0381bed4702d36e5505b9edcdefd9cdeb9ed2.npy",
+      "sha256": "5de9be7e751f58905a1286891ed0381bed4702d36e5505b9edcdefd9cdeb9ed2",
+      "original": "../dsda-doom-e1m1-uvmax/videos/60210.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-58223",
+      "frames": 1898,
+      "bank": "human-6f89ddcc92147b16a05729708ed0ac8cc5c2b12452d818a4e672ee8ec8dcdaaa.npy",
+      "sha256": "6f89ddcc92147b16a05729708ed0ac8cc5c2b12452d818a4e672ee8ec8dcdaaa",
+      "original": "../dsda-doom-e1m1-uvmax/videos/58223.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29539",
+      "frames": 1915,
+      "bank": "human-acb8a1497cb0842fb634ac17cd2586ae03863bc55b63df2b8dc4d8343f86103b.npy",
+      "sha256": "acb8a1497cb0842fb634ac17cd2586ae03863bc55b63df2b8dc4d8343f86103b",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29539.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29540",
+      "frames": 2028,
+      "bank": "human-3b312a0e15288fd26bb84e0da4a9c76ad72f583658f587949c191feda00eac9c.npy",
+      "sha256": "3b312a0e15288fd26bb84e0da4a9c76ad72f583658f587949c191feda00eac9c",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29540.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-59440",
+      "frames": 2046,
+      "bank": "human-70ecd28b9db857551f9a75bb27384c57448909fbd46df62a5c3ca9c2f34a9fb0.npy",
+      "sha256": "70ecd28b9db857551f9a75bb27384c57448909fbd46df62a5c3ca9c2f34a9fb0",
+      "original": "../dsda-doom-e1m1-uvmax/videos/59440.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-83376",
+      "frames": 2067,
+      "bank": "human-92bc4d5005c541181872eccaef6cb11103ac8af6632da83b19c1aa3d339726b9.npy",
+      "sha256": "92bc4d5005c541181872eccaef6cb11103ac8af6632da83b19c1aa3d339726b9",
+      "original": "../dsda-doom-e1m1-uvmax/videos/83376.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29541",
+      "frames": 2127,
+      "bank": "human-12c945625a86f7fdd36d9dfad8ad31a9dbfa32e5e3aa09dc8be106102df831da.npy",
+      "sha256": "12c945625a86f7fdd36d9dfad8ad31a9dbfa32e5e3aa09dc8be106102df831da",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29541.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-57468",
+      "frames": 2194,
+      "bank": "human-152c5e5c489183d28e5d7d145c4ed02373abe6e0c115c132f4da4df1f066ae9d.npy",
+      "sha256": "152c5e5c489183d28e5d7d145c4ed02373abe6e0c115c132f4da4df1f066ae9d",
+      "original": "../dsda-doom-e1m1-uvmax/videos/57468.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-58224",
+      "frames": 2233,
+      "bank": "human-3cdd062fa8ed6aaed7ac4bd4928f12f505653a5d5be4af4a5a1ed335f8775681.npy",
+      "sha256": "3cdd062fa8ed6aaed7ac4bd4928f12f505653a5d5be4af4a5a1ed335f8775681",
+      "original": "../dsda-doom-e1m1-uvmax/videos/58224.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29542",
+      "frames": 2306,
+      "bank": "human-51d6a713f5edebfcc68981372febac4d7942b3f7a7fb29b80b4bcecdc396893b.npy",
+      "sha256": "51d6a713f5edebfcc68981372febac4d7942b3f7a7fb29b80b4bcecdc396893b",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29542.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29543",
+      "frames": 2385,
+      "bank": "human-f3412326d3cb5a786e38cd1f53a7f258b5878b2c37e35c91ec2813555ef76881.npy",
+      "sha256": "f3412326d3cb5a786e38cd1f53a7f258b5878b2c37e35c91ec2813555ef76881",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29543.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-112473",
+      "frames": 2486,
+      "bank": "human-e9c9529bb7e49aa3c88b6bcbefa1d513ee38036e0319c1811f6d2cadd0d38fe6.npy",
+      "sha256": "e9c9529bb7e49aa3c88b6bcbefa1d513ee38036e0319c1811f6d2cadd0d38fe6",
+      "original": "../dsda-doom-e1m1-uvmax/videos/112473.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29544",
+      "frames": 2492,
+      "bank": "human-93fd5cac3b3472686515da5f3707cfd8e80535d60e67751c1bac949b33bb5c35.npy",
+      "sha256": "93fd5cac3b3472686515da5f3707cfd8e80535d60e67751c1bac949b33bb5c35",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29544.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29545",
+      "frames": 2526,
+      "bank": "human-31af090159e710fb9269bbc16fcc35d8ff16e978488e8297b4aadbdf8fa27fe6.npy",
+      "sha256": "31af090159e710fb9269bbc16fcc35d8ff16e978488e8297b4aadbdf8fa27fe6",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29545.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29546",
+      "frames": 2711,
+      "bank": "human-0e8d1ebb49d6ded946ff26dce0bc4c69016e2cff387ee532c1111d186d268dee.npy",
+      "sha256": "0e8d1ebb49d6ded946ff26dce0bc4c69016e2cff387ee532c1111d186d268dee",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29546.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29547",
+      "frames": 2754,
+      "bank": "human-820c023dff76709274f1943c16057c20ea1b49604418c29d832bfeb77594c598.npy",
+      "sha256": "820c023dff76709274f1943c16057c20ea1b49604418c29d832bfeb77594c598",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29547.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-63861",
+      "frames": 2866,
+      "bank": "human-3309c6379193e216fe2627c872560fa337dad26c8ed55d213e28905068ccbb27.npy",
+      "sha256": "3309c6379193e216fe2627c872560fa337dad26c8ed55d213e28905068ccbb27",
+      "original": "../dsda-doom-e1m1-uvmax/videos/63861.mp4"
+    },
+    {
+      "source": "human",
+      "id": "dsda-29548",
+      "frames": 3354,
+      "bank": "human-94b0f70aa9940cadb4efa94c8b71c64c072ea8d6efb759232a560cb3312002b7.npy",
+      "sha256": "94b0f70aa9940cadb4efa94c8b71c64c072ea8d6efb759232a560cb3312002b7",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29548.mp4",
+      "dev_start": 2932
+    },
+    {
+      "source": "human",
+      "id": "dsda-107728",
+      "frames": 5989,
+      "bank": "human-2167ba36ce0ce4be8f2bbc6ca5e7233b5127ca769e8151d9dea26c61c2c06ed1.npy",
+      "sha256": "2167ba36ce0ce4be8f2bbc6ca5e7233b5127ca769e8151d9dea26c61c2c06ed1",
+      "original": "../dsda-doom-e1m1-uvmax/videos/107728.mp4",
+      "dev_start": 5568
+    },
+    {
+      "source": "human",
+      "id": "dsda-29549",
+      "frames": 6300,
+      "bank": "human-9f04006b4d8ad61cc0af9a0d31fb651f6b14561abd822ca9d84bc94135f34cc4.npy",
+      "sha256": "9f04006b4d8ad61cc0af9a0d31fb651f6b14561abd822ca9d84bc94135f34cc4",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29549.mp4",
+      "dev_start": 5880
+    },
+    {
+      "source": "human",
+      "id": "dsda-29550",
+      "frames": 7578,
+      "bank": "human-fbf6a3f63c023885faea379910fb8691db6affcaa4a48d1473ff41acfb8cb1c4.npy",
+      "sha256": "fbf6a3f63c023885faea379910fb8691db6affcaa4a48d1473ff41acfb8cb1c4",
+      "original": "../dsda-doom-e1m1-uvmax/videos/29550.mp4",
+      "dev_start": 7156
+    },
+    {
+      "source": "human",
+      "id": "dsda-108626",
+      "frames": 34685,
+      "bank": "human-62555c26100ec8cebb4a001ba4162cc4385c541fdf5d529e6c301c7ae2961874.npy",
+      "sha256": "62555c26100ec8cebb4a001ba4162cc4385c541fdf5d529e6c301c7ae2961874",
+      "original": "../dsda-doom-e1m1-uvmax/videos/108626.mp4",
+      "dev_start": 34264
+    }
+  ]
+}

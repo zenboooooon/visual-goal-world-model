@@ -1,0 +1,1417 @@
+{
+  "starts": 100,
+  "exits": 0,
+  "deaths": 100,
+  "timeouts": 0,
+  "route_threshold_counts": {
+    "20": 93,
+    "40": 16,
+    "60": 0,
+    "80": 0,
+    "100": 0
+  },
+  "median_max_progress": 0.3076923076923077,
+  "episodes": [
+    {
+      "seed": 61000,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 132,
+      "reason": "death",
+      "seconds": 15.028571428571428,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61001,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 139,
+      "reason": "death",
+      "seconds": 15.885714285714286,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61002,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 232,
+      "reason": "death",
+      "seconds": 26.457142857142856,
+      "last_route_node": 8,
+      "max_progress": 0.3076923076923077
+    },
+    {
+      "seed": 61003,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 152,
+      "reason": "death",
+      "seconds": 17.34285714285714,
+      "last_route_node": 13,
+      "max_progress": 0.5
+    },
+    {
+      "seed": 61004,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 125,
+      "reason": "death",
+      "seconds": 14.228571428571428,
+      "last_route_node": 11,
+      "max_progress": 0.4230769230769231
+    },
+    {
+      "seed": 61005,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 156,
+      "reason": "death",
+      "seconds": 17.742857142857144,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61006,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 293,
+      "reason": "death",
+      "seconds": 33.457142857142856,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61007,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 112,
+      "reason": "death",
+      "seconds": 12.742857142857142,
+      "last_route_node": 10,
+      "max_progress": 0.38461538461538464
+    },
+    {
+      "seed": 61008,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 129,
+      "reason": "death",
+      "seconds": 14.742857142857142,
+      "last_route_node": 8,
+      "max_progress": 0.3076923076923077
+    },
+    {
+      "seed": 61009,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 120,
+      "reason": "death",
+      "seconds": 13.714285714285714,
+      "last_route_node": 8,
+      "max_progress": 0.3076923076923077
+    },
+    {
+      "seed": 61010,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 146,
+      "reason": "death",
+      "seconds": 16.62857142857143,
+      "last_route_node": 13,
+      "max_progress": 0.5
+    },
+    {
+      "seed": 61011,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 129,
+      "reason": "death",
+      "seconds": 14.685714285714285,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61012,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 122,
+      "reason": "death",
+      "seconds": 13.857142857142858,
+      "last_route_node": 5,
+      "max_progress": 0.19230769230769232
+    },
+    {
+      "seed": 61013,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 231,
+      "reason": "death",
+      "seconds": 26.314285714285713,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61014,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 145,
+      "reason": "death",
+      "seconds": 16.485714285714284,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61015,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 158,
+      "reason": "death",
+      "seconds": 18.057142857142857,
+      "last_route_node": 6,
+      "max_progress": 0.23076923076923078
+    },
+    {
+      "seed": 61016,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 271,
+      "reason": "death",
+      "seconds": 30.97142857142857,
+      "last_route_node": 5,
+      "max_progress": 0.19230769230769232
+    },
+    {
+      "seed": 61017,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 125,
+      "reason": "death",
+      "seconds": 14.285714285714286,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61018,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 197,
+      "reason": "death",
+      "seconds": 22.514285714285716,
+      "last_route_node": 8,
+      "max_progress": 0.3076923076923077
+    },
+    {
+      "seed": 61019,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 133,
+      "reason": "death",
+      "seconds": 15.142857142857142,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61020,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 124,
+      "reason": "death",
+      "seconds": 14.142857142857142,
+      "last_route_node": 6,
+      "max_progress": 0.23076923076923078
+    },
+    {
+      "seed": 61021,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 105,
+      "reason": "death",
+      "seconds": 11.971428571428572,
+      "last_route_node": 5,
+      "max_progress": 0.19230769230769232
+    },
+    {
+      "seed": 61022,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 124,
+      "reason": "death",
+      "seconds": 14.085714285714285,
+      "last_route_node": 12,
+      "max_progress": 0.46153846153846156
+    },
+    {
+      "seed": 61023,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 379,
+      "reason": "death",
+      "seconds": 43.25714285714286,
+      "last_route_node": 11,
+      "max_progress": 0.4230769230769231
+    },
+    {
+      "seed": 61024,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 345,
+      "reason": "death",
+      "seconds": 39.371428571428574,
+      "last_route_node": 10,
+      "max_progress": 0.38461538461538464
+    },
+    {
+      "seed": 61025,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 239,
+      "reason": "death",
+      "seconds": 27.257142857142856,
+      "last_route_node": 4,
+      "max_progress": 0.15384615384615385
+    },
+    {
+      "seed": 61026,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 190,
+      "reason": "death",
+      "seconds": 21.62857142857143,
+      "last_route_node": 10,
+      "max_progress": 0.38461538461538464
+    },
+    {
+      "seed": 61027,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 605,
+      "reason": "death",
+      "seconds": 69.14285714285714,
+      "last_route_node": 13,
+      "max_progress": 0.5
+    },
+    {
+      "seed": 61028,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 125,
+      "reason": "death",
+      "seconds": 14.285714285714286,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61029,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 168,
+      "reason": "death",
+      "seconds": 19.17142857142857,
+      "last_route_node": 6,
+      "max_progress": 0.23076923076923078
+    },
+    {
+      "seed": 61030,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 213,
+      "reason": "death",
+      "seconds": 24.257142857142856,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61031,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 184,
+      "reason": "death",
+      "seconds": 21.02857142857143,
+      "last_route_node": 12,
+      "max_progress": 0.46153846153846156
+    },
+    {
+      "seed": 61032,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 170,
+      "reason": "death",
+      "seconds": 19.34285714285714,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61033,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 198,
+      "reason": "death",
+      "seconds": 22.542857142857144,
+      "last_route_node": 11,
+      "max_progress": 0.4230769230769231
+    },
+    {
+      "seed": 61034,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 224,
+      "reason": "death",
+      "seconds": 25.6,
+      "last_route_node": 8,
+      "max_progress": 0.3076923076923077
+    },
+    {
+      "seed": 61035,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 149,
+      "reason": "death",
+      "seconds": 17.02857142857143,
+      "last_route_node": 12,
+      "max_progress": 0.46153846153846156
+    },
+    {
+      "seed": 61036,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 220,
+      "reason": "death",
+      "seconds": 25.114285714285714,
+      "last_route_node": 8,
+      "max_progress": 0.3076923076923077
+    },
+    {
+      "seed": 61037,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 366,
+      "reason": "death",
+      "seconds": 41.74285714285714,
+      "last_route_node": 10,
+      "max_progress": 0.38461538461538464
+    },
+    {
+      "seed": 61038,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 192,
+      "reason": "death",
+      "seconds": 21.914285714285715,
+      "last_route_node": 12,
+      "max_progress": 0.46153846153846156
+    },
+    {
+      "seed": 61039,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 192,
+      "reason": "death",
+      "seconds": 21.914285714285715,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61040,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 116,
+      "reason": "death",
+      "seconds": 13.17142857142857,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61041,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 137,
+      "reason": "death",
+      "seconds": 15.657142857142857,
+      "last_route_node": 8,
+      "max_progress": 0.3076923076923077
+    },
+    {
+      "seed": 61042,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 178,
+      "reason": "death",
+      "seconds": 20.285714285714285,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61043,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 127,
+      "reason": "death",
+      "seconds": 14.457142857142857,
+      "last_route_node": 11,
+      "max_progress": 0.4230769230769231
+    },
+    {
+      "seed": 61044,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 132,
+      "reason": "death",
+      "seconds": 15.028571428571428,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61045,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 120,
+      "reason": "death",
+      "seconds": 13.714285714285714,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61046,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 171,
+      "reason": "death",
+      "seconds": 19.514285714285716,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61047,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 614,
+      "reason": "death",
+      "seconds": 70.17142857142858,
+      "last_route_node": 10,
+      "max_progress": 0.38461538461538464
+    },
+    {
+      "seed": 61048,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 145,
+      "reason": "death",
+      "seconds": 16.571428571428573,
+      "last_route_node": 8,
+      "max_progress": 0.3076923076923077
+    },
+    {
+      "seed": 61049,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 197,
+      "reason": "death",
+      "seconds": 22.514285714285716,
+      "last_route_node": 10,
+      "max_progress": 0.38461538461538464
+    },
+    {
+      "seed": 61050,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 295,
+      "reason": "death",
+      "seconds": 33.65714285714286,
+      "last_route_node": 6,
+      "max_progress": 0.23076923076923078
+    },
+    {
+      "seed": 61051,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 122,
+      "reason": "death",
+      "seconds": 13.885714285714286,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61052,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 124,
+      "reason": "death",
+      "seconds": 14.17142857142857,
+      "last_route_node": 11,
+      "max_progress": 0.4230769230769231
+    },
+    {
+      "seed": 61053,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 155,
+      "reason": "death",
+      "seconds": 17.685714285714287,
+      "last_route_node": 8,
+      "max_progress": 0.3076923076923077
+    },
+    {
+      "seed": 61054,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 144,
+      "reason": "death",
+      "seconds": 16.457142857142856,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61055,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 206,
+      "reason": "death",
+      "seconds": 23.485714285714284,
+      "last_route_node": 6,
+      "max_progress": 0.23076923076923078
+    },
+    {
+      "seed": 61056,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 169,
+      "reason": "death",
+      "seconds": 19.285714285714285,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61057,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 163,
+      "reason": "death",
+      "seconds": 18.542857142857144,
+      "last_route_node": 10,
+      "max_progress": 0.38461538461538464
+    },
+    {
+      "seed": 61058,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 144,
+      "reason": "death",
+      "seconds": 16.457142857142856,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61059,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 139,
+      "reason": "death",
+      "seconds": 15.857142857142858,
+      "last_route_node": 10,
+      "max_progress": 0.38461538461538464
+    },
+    {
+      "seed": 61060,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 182,
+      "reason": "death",
+      "seconds": 20.8,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61061,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 153,
+      "reason": "death",
+      "seconds": 17.457142857142856,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61062,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 209,
+      "reason": "death",
+      "seconds": 23.82857142857143,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61063,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 181,
+      "reason": "death",
+      "seconds": 20.685714285714287,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61064,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 173,
+      "reason": "death",
+      "seconds": 19.742857142857144,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61065,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 121,
+      "reason": "death",
+      "seconds": 13.742857142857142,
+      "last_route_node": 5,
+      "max_progress": 0.19230769230769232
+    },
+    {
+      "seed": 61066,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 224,
+      "reason": "death",
+      "seconds": 25.542857142857144,
+      "last_route_node": 11,
+      "max_progress": 0.4230769230769231
+    },
+    {
+      "seed": 61067,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 239,
+      "reason": "death",
+      "seconds": 27.257142857142856,
+      "last_route_node": 8,
+      "max_progress": 0.3076923076923077
+    },
+    {
+      "seed": 61068,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 153,
+      "reason": "death",
+      "seconds": 17.485714285714284,
+      "last_route_node": 6,
+      "max_progress": 0.23076923076923078
+    },
+    {
+      "seed": 61069,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 140,
+      "reason": "death",
+      "seconds": 15.971428571428572,
+      "last_route_node": 11,
+      "max_progress": 0.4230769230769231
+    },
+    {
+      "seed": 61070,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 153,
+      "reason": "death",
+      "seconds": 17.428571428571427,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61071,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 156,
+      "reason": "death",
+      "seconds": 17.82857142857143,
+      "last_route_node": 8,
+      "max_progress": 0.3076923076923077
+    },
+    {
+      "seed": 61072,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 180,
+      "reason": "death",
+      "seconds": 20.514285714285716,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61073,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 200,
+      "reason": "death",
+      "seconds": 22.771428571428572,
+      "last_route_node": 8,
+      "max_progress": 0.3076923076923077
+    },
+    {
+      "seed": 61074,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 326,
+      "reason": "death",
+      "seconds": 37.17142857142857,
+      "last_route_node": 13,
+      "max_progress": 0.5
+    },
+    {
+      "seed": 61075,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 146,
+      "reason": "death",
+      "seconds": 16.6,
+      "last_route_node": 8,
+      "max_progress": 0.3076923076923077
+    },
+    {
+      "seed": 61076,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 139,
+      "reason": "death",
+      "seconds": 15.82857142857143,
+      "last_route_node": 10,
+      "max_progress": 0.38461538461538464
+    },
+    {
+      "seed": 61077,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 136,
+      "reason": "death",
+      "seconds": 15.457142857142857,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61078,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 246,
+      "reason": "death",
+      "seconds": 28.114285714285714,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61079,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 245,
+      "reason": "death",
+      "seconds": 28.0,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61080,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 163,
+      "reason": "death",
+      "seconds": 18.62857142857143,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61081,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 247,
+      "reason": "death",
+      "seconds": 28.17142857142857,
+      "last_route_node": 8,
+      "max_progress": 0.3076923076923077
+    },
+    {
+      "seed": 61082,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 130,
+      "reason": "death",
+      "seconds": 14.771428571428572,
+      "last_route_node": 6,
+      "max_progress": 0.23076923076923078
+    },
+    {
+      "seed": 61083,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 445,
+      "reason": "death",
+      "seconds": 50.82857142857143,
+      "last_route_node": 10,
+      "max_progress": 0.38461538461538464
+    },
+    {
+      "seed": 61084,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 135,
+      "reason": "death",
+      "seconds": 15.371428571428572,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61085,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 201,
+      "reason": "death",
+      "seconds": 22.97142857142857,
+      "last_route_node": 5,
+      "max_progress": 0.19230769230769232
+    },
+    {
+      "seed": 61086,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 136,
+      "reason": "death",
+      "seconds": 15.542857142857143,
+      "last_route_node": 8,
+      "max_progress": 0.3076923076923077
+    },
+    {
+      "seed": 61087,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 157,
+      "reason": "death",
+      "seconds": 17.857142857142858,
+      "last_route_node": 6,
+      "max_progress": 0.23076923076923078
+    },
+    {
+      "seed": 61088,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 259,
+      "reason": "death",
+      "seconds": 29.542857142857144,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61089,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 196,
+      "reason": "death",
+      "seconds": 22.314285714285713,
+      "last_route_node": 8,
+      "max_progress": 0.3076923076923077
+    },
+    {
+      "seed": 61090,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 274,
+      "reason": "death",
+      "seconds": 31.314285714285713,
+      "last_route_node": 8,
+      "max_progress": 0.3076923076923077
+    },
+    {
+      "seed": 61091,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 288,
+      "reason": "death",
+      "seconds": 32.91428571428571,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61092,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 135,
+      "reason": "death",
+      "seconds": 15.342857142857143,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61093,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 170,
+      "reason": "death",
+      "seconds": 19.34285714285714,
+      "last_route_node": 5,
+      "max_progress": 0.19230769230769232
+    },
+    {
+      "seed": 61094,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 175,
+      "reason": "death",
+      "seconds": 19.97142857142857,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61095,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 160,
+      "reason": "death",
+      "seconds": 18.285714285714285,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61096,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 182,
+      "reason": "death",
+      "seconds": 20.8,
+      "last_route_node": 13,
+      "max_progress": 0.5
+    },
+    {
+      "seed": 61097,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 215,
+      "reason": "death",
+      "seconds": 24.542857142857144,
+      "last_route_node": 9,
+      "max_progress": 0.34615384615384615
+    },
+    {
+      "seed": 61098,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 125,
+      "reason": "death",
+      "seconds": 14.228571428571428,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    },
+    {
+      "seed": 61099,
+      "initial_pose": [
+        1056.0,
+        -3616.0,
+        0.0,
+        90.00000002095476
+      ],
+      "decisions": 269,
+      "reason": "death",
+      "seconds": 30.65714285714286,
+      "last_route_node": 7,
+      "max_progress": 0.2692307692307692
+    }
+  ],
+  "original_checkpoint_sha256": "14e8a67dbf486c5a30dff982633bb84d8dba226d835ffdc6765c284601fe9402"
+}
