@@ -47,14 +47,25 @@ class SpatialViT(nn.Module):
         nn.init.normal_(self.cls, std=0.02)
         nn.init.normal_(self.position, std=0.02)
 
-    def forward(self, images: Tensor) -> Tensor:
+    def forward(self, images: Tensor, *, cls_only=False) -> Tensor:
         expected = (self.config.channels, self.config.image_size, self.config.image_size)
         if images.ndim != 4 or tuple(images.shape[1:]) != expected:
             raise ValueError(f"expected (N, {expected}), got {tuple(images.shape)}")
         patches = self.patch_embed(images).flatten(2).transpose(1, 2)
         cls = self.cls.expand(images.shape[0], -1, -1)
         tokens = torch.cat((cls, patches), dim=1) + self.position
-        return self.output_norm(self.blocks(tokens)[:, 0])
+        if not cls_only:
+            return self.output_norm(self.blocks(tokens)[:, 0])
+
+        # All tokens remain keys/values. Only the last layer's CLS output is consumed.
+        for layer in self.blocks.layers[:-1]:
+            tokens = layer(tokens)
+        last = self.blocks.layers[-1]
+        normalized = last.norm1(tokens)
+        delta = last.self_attn(normalized[:, :1], normalized, normalized, need_weights=False)[0]
+        cls = tokens[:, :1] + delta
+        cls = cls + last.linear2(last.activation(last.linear1(last.norm2(cls))))
+        return self.output_norm(cls[:, 0])
 
 
 class ContextEncoder(nn.Module):
@@ -102,9 +113,9 @@ class HistoryEncoder(nn.Module):
         self.encoder = ContextEncoder(config, SpatialViT)
         self.temporal_mode = temporal_mode
 
-    def spatial(self, images):
+    def spatial(self, images, *, cls_only=False):
         if self.temporal_mode == "pooled":
-            return self.encoder.spatial(images)
+            return self.encoder.spatial(images, cls_only=cls_only)
         spatial = self.encoder.spatial
         patches = spatial.patch_embed(images).flatten(2).transpose(1, 2)
         cls = spatial.cls.expand(len(images), -1, -1)

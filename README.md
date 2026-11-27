@@ -55,3 +55,55 @@ model.eval()
 ```
 
 テストは `python -m unittest discover -s tests` で実行できます。
+
+## 高速版の共同学習
+
+`visual_goal_world_model.training` に、実験で使った高速化をまとめた1更新分のAPIがあります。モデルと重み形式は両方式で共通です。通常の `model(current, goal)` と検証時の計算は従来どおりです。
+
+```python
+from visual_goal_world_model.training import FrameBank, joint_step, make_optimizer
+
+bank = FrameBank(images)  # CPU uint8 [N,C,H,W]
+optimizer = make_optimizer(model, encoder_lr=3e-5, wm_lr=5e-4, head_lr=5e-4)
+losses = joint_step(model, optimizer, bank,
+                    world=(current_ids, goal_ids, stage_ids),
+                    transitions=(before_ids, future_ids),
+                    actions=(labeled_ids, reference_goal_ids, labels),
+                    fast=True, microbatch=32)
+```
+
+| 引数 | データの渡し方 |
+|---|---|
+| `world` | 現在と目標は `[B,4]`、9段の教師は遠い順の `[B,9,4]`。 |
+| `transitions` | 現在と実際の未来の履歴をそれぞれ `[T,4]` で渡す。 |
+| `actions` | 操作ラベルのある現在・目標の履歴は `[A,4]`、ラベルはCPUテンソル `[A,action_dim]`。映像だけの更新では `None`。 |
+
+履歴の各要素はフレーム表に対するCPUの `torch.int64` 行番号です。複数の軌跡を扱う場合は全軌跡で一意の番号を割り当て、各履歴を同じ軌跡の中で作ります。左パディングは `-1`、最後の要素は有効な番号にします。同じ番号には同じ前処理済み画像を割り当てます。異なるデータ拡張を適用した画像には別の番号を使います。
+
+### 実際に省ける計算
+
+- **同じ目標画像の再利用**。サンプラーが選んだ操作行を、目標履歴が同じ行からまとめて処理します。対応する操作ラベルも一緒に並べ替えます。各マイクロバッチで現在・目標をまとめ、重複フレームの空間ViTを一度だけ計算します。EMA教師の特徴とオンラインの特徴は別々に計算します。
+- **画像と二値マスクの転送**。`FrameBank(images, mask_bits)` は、画像と展開済みマスクを同じuint8出力バッファに詰めてからデバイスに転送します。`mask_bits` は `[N,H,ceil(W/8)]` で、上位ビットから画素を割り当てます。モデルの `channels` は画像のチャネル数に1を加えます。RGBだけの場合は `FrameBank(images)` が使えます。
+- **最終層のCLS計算**。`pooled` では最後の空間attentionのクエリをCLSの1個に絞り、キー・値には全パッチを残します。`patch` は時系列層で全パッチを使います。VRAMが足りない場合は `checkpoint_patches=True` で逆伝播時に活性を再計算できます。
+- **マイクロバッチ**。`fast=True` は既定32、`fast=False` は既定16です。操作・遷移損失は各分割の行数で重み付けして勾配を蓄積します。WMの分散・共分散は元のWMバッチ全体で計算し、optimizerとEMAをそれぞれ1回更新します。
+
+対応CUDA環境では自動でBF16を使います。`bf16=False` でFP32を選べます。実験で用いた一例はWMバッチ20、操作バッチ128、勾配ノルム上限1、EMA係数0.996です。実際に動く合成データ例でモードを切り替えられます。
+
+```bash
+python examples/joint_update.py --mode pooled
+python examples/joint_update.py --mode pooled --baseline
+python examples/joint_update.py --mode patch --device cuda
+```
+
+### 元の実験での速度
+
+RTX 5090で別の学習ジョブが動いている条件で、同じ保存点と5組のバッチを使い、各条件を1回ウォームアップして測定しました。元のRGB・深度・二値マスク付き `pooled` 実験の値です。表はWM・遷移・操作の順伝播と逆伝播の合計時間の中央値、および5回中の最大GPU割当量です。optimizer更新、EMA、検証、保存の時間は計測外です。
+
+| 条件 | 秒/バッチ | ピーク割当量 |
+|---|---:|---:|
+| 元の通常版、マイクロバッチ16 | 0.960 | 4.23 GiB |
+| 目標順ソート・バッファへの格納・マイクロバッチ32 | 0.774 | 5.16 GiB |
+| 最終層のCLS計算のみ適用 | 0.795 | 2.76 GiB |
+| 4つすべて | 0.542 | 3.42 GiB |
+
+この測定では全手法の併用で約1.77倍でした。入力・目標の重複率、GPU、時系列方式で効果は変わります。元のBF16比較では最初のバッチの通常版と高速版の勾配のコサイン類似度は0.99978でした。移植版のテストでは、両時系列方式についてCPU・FP32で出力と勾配も比較しています。
